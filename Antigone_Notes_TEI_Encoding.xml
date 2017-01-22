@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE teiCorpus SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd"-->
+<!-- validation against teil_all.dtd schema (online)-->
+<teiCorpus version="5.2" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader type="corpus" xml:lang="en">
+		<fileDesc>
+			<!--bibliographic description of the TEI file-->
+			<titleStmt>
+				<title type="marc245a">Antigone Notes</title> :
+				<title type="marc245b">a digital edition</title>.
+				<author>
+					<persName type="marc100" key="lccn-nb2016-020158" xml:id="KK">
+						<surname>Kelsey</surname>, <forename>Katarina</forename>.</persName>
+					<idno type="lcaf">http://id.loc.gov/authorities/names/nb2016020158.html</idno>
+				</author>
+				<principal xml:id="MM" type="marc700">
+					<surname>Minkova</surname>, 
+						<forename>Minkova</forename>.
+						</principal>
+				<respStmt xml:id="MM_contribution">
+					<resp>Image descriptions and text transcription by </resp>
+					<persName ref="#MM">
+						<surname>Minkova</surname>, 
+						<forename>Minkova</forename>.
+					</persName>
+				</respStmt>
+				<respStmt xml:id="KK_contribution">
+					<resp>Image description editing, text transcription and bibliography supplied by </resp>
+					<persName ref="#KK">
+						<surname>Kelsey</surname>, 
+					<forename>Katarina</forename>.
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="1">First TEI encoded edition</edition>
+				<respStmt>
+					<resp>Machine readable text compiled and encoded by</resp>
+					<persName ref="#MM">Miglena Minkova</persName>
+				</respStmt>
+			</editionStmt>
+			<extent>
+				<measure unit="kbit" quantity="39">Thirty-nine kilobites</measure>
+				<measure unit="words" quantity="2610">Two tousand six hundred and ten words of source text</measure>
+			</extent>
+			<publicationStmt>
+				<authority>
+					<persName ref="#MM">Miglena Minkova</persName>
+				</authority>
+				<availability>
+					<p>Available to download from <ref target="https://github.com/KatarinaKelsey/blob/master/Antigone_Notes_TEI_Encoding.xml">Katarina Kelsey's GitHub space</ref>
+					</p>
+					<licence>Released under <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</ref> licence.</licence>
+				</availability>
+				<idno type="DOI">xx.xxxxxx/xxx--example</idno>
+				<date when="2017-01-22">22 January 2017</date>
+			</publicationStmt>
+			<notesStmt>
+				<!--collects together any notes providing information about a text additional to that recorded in other parts of the bibliographic description.-->
+				<note resp="#MM_contribution">The text of this digital edition is supplied by <persName
+						ref="#KK">Katarina Kelsey</persName>. It contains the original text files used in the printed edition of the text.</note>
+			</notesStmt>
+			<sourceDesc>
+				<biblStruct type="book">
+					<monogr>
+						<author ref="#KK">
+							<surname>Kelsey</surname>, <forename>Katarina </forename>
+						</author>
+						<title>Antigone Notes</title>
+						<edition>First edition, <date when="2015">2015</date>.
+				      <p> Limited edition of 36 copies.</p>
+						</edition>
+						<availability status="restricted">
+							<p>Copyright (C) 2015 by <persName ref="#KK">Katarina Kelsey</persName> for <name
+									xml:id="AMBruno" type="org" target="http://ambruno.co.uk/">AM Bruno</name>.</p>
+						</availability>
+						<distributor ref="AMBruno">AM Bruno</distributor>
+						<extent>
+							<measure unit="book" quantity="4">Four booklets</measure>
+							<measure unit="pages" quantity="48">48 pages of source material</measure>
+						</extent>
+						<sponsor ref="AMBruno">AM Bruno</sponsor>
+						<note ref="#KK_contribution">The book was made in response to AMbruno’s 2015 Red project. In Holderlin’s translation of Antigone he employs literal translation: Antigone seems to ‘colour a red word’ where she usually signals ominous news. It breaks and expands the possibilities of the word, exposes red to all its readings, exposes when ‘words once wore the strident colours of their intent’1. I wanted to explore this translation process materially, to explore the word red in this story, not just in its abstraction and obscurity, but its slow energy as it is realised throughout the book, with transfer printing, heavily waxed and flaking paper and silicone. I used literal translation, google translate, friends’ interpretations, texts on translation, images of Antigones and more traditional translation methods. My own practice still follows similar patterns, focussing heavily on research and readings, often resulting in fragmented contents. Material choices are very important in the research process and I consider these equal to the textual and visual content of the book. I prefer to combine the content with more traditional and simple binding structures in the hope that a stable background will allow the content to be pushed to its extreme.</note>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<!--optional-->
+		<encodingDesc>
+			<!--describes the relationship between an electronic text and its source or sources.-->
+			<projectDesc>
+				<p>This encoding is part of a <ref target="xxxxx">GitHub repository</ref> created for the digital version of <persName
+						ref="#KK">Katarina Kelsey</persName>'s artist's book <title>Antigone Notes</title>. The repository and it's contents are part of <persName
+						ref="#MM">Miglena Minkova</persName>'s master thesis submitted on <date
+						when="2017-05">May 2017</date> for the course <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at <name
+						type="org" target="http://www.hb.se">University of Boras</name>, <name
+						type="place">Sweden</name>.</p>
+			</projectDesc>
+			<editorialDecl>
+				<!--tto be complete at the end of encoding:
+		       line breaks and page breaks and blank pages have been preserved
+		       indentation not preserved
+		       different party contributions marked by resp statement pointing to respStmt not person
+		       a-umlaut encoded as &#228;
+		       indents don’t need to be preserved
+		       numbers encoded
+		       simple drama encoded
+		       cutations encoded and references to bibList --></editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en" usage="95">English</language>
+				<language ident="de" usage="5">German</language>
+			</langUsage>
+			<particDesc>
+				<listPerson type="historical">
+					<!-- ... definition in the header -->
+					<person xml:id="antigone" type="marc100" key="lccn-n87-890502">
+						<persName>Antigone</persName>
+						<!-- everything we want to say about Antigone -->
+					</person>
+					<person xml:id="ismene">
+						<persName>Ismene</persName>
+						<!-- everything we want to say about Holderlin -->
+					</person>
+					<person xml:id="fh">
+						<persName>
+							<forename>Friedrich</forename>
+							<surname>Hölderlin</surname>
+						</persName>
+						<!-- everything we want to say about Holderlin -->
+					</person>
+					<person xml:id="oedipus">
+						<persName>Oedipus,</persName>
+						<!-- everything we want to say about Holderlin -->
+					</person>
+					<person xml:id="sophocles">
+						<persName>Sophocles</persName>
+						<!-- everything we want to say about Holderlin -->
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+		<revisionDesc></revisionDesc>
+	</teiHeader>
+	<!--investigate cover component-->
+	<TEI>
+		<teiHeader type="booklet1">
+			<!-- metadata specific to this booklet goes here --></teiHeader>
+		<group type="booklet1">
+			<pb n="1"/>
+			<text>
+				<front>
+					<!-- front matter for the composite text/biographical notice by editor --></front>
+				<!-- KK text -->
+				<body>
+					<p>
+						<persName ref="#fh">Holderlin</persName> did not want to fuck <persName
+							ref="#antigone">Antigone</persName>
+					</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="2"/>
+			<!-- blank page -->
+			<pb n="3"/>
+			<figure>
+				<graphic url="01-03-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="4"/>
+			<figure>
+				<graphic url="01-04-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="5"/>
+			<figure>
+				<graphic url="01-05-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth (frontal). Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="6"/>
+			<figure>
+				<graphic url="01-06-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth closed, with a head leaning slightly forward. Image is monochrome, with ochre tint. </figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="7"/>
+			<figure>
+				<graphic url="01-07-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth (from nose down to chin). Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="8"/>
+			<figure>
+				<graphic url="01-08-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's  mouth. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="9"/>
+			<figure>
+				<graphic url="01-09-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's  mouth (nose to top of chin). Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="10"/>
+			<figure>
+				<graphic url="01-10-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows four pairs of men's legs, from the sole to the knee, in a relaxed third ballet position, and a pair of women's legs, from sole to tight, crouching. They are all wearing ballet shoes and attire. From left to right, the three men are standing in a line, diagonally, one is stepping forward and the woman on the far right, seen from the side, is squatting. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="11"/>
+			<figure>
+				<graphic url="01-11-img.png"/>
+				<figDesc resp="#MM_contribution">From right to left, the figure shows three pairs of men's legs, visible from the sole to the knee, standing in a line, diagonally, in a relaxed third ballet position, and on the left a woman, seen from the side, squatting, with dress hanging behind. They are all wearing ballet shoes and attire. Drapery is hanging behind them. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="12"/>
+			<!-- blank page -->
+		</group>
+	</TEI>
+	<TEI>
+		<teiHeader type="booklet2">
+			<!-- metadata specific to this booklet goes here --></teiHeader>
+		<group type="booklet2">
+			<pb n="1"/>
+			<text>
+				<front></front>
+				<!-- KK text -->
+				<body>
+					<p>I’ll show you in red</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="2"/>
+			<text>
+				<front></front>
+				<!-- Holderlin's text -->
+				<body>
+					<quote source="#HolderlinNotesToAntigone-114-1">It was, I think, necessary to alter the sacred wording here</quote>
+					<bibl xml:id="HolderlinNotesToAntigone">
+						<title level="a">
+							<persName ref="#fh">Holderlin</persName>'s notes to <persName
+								ref="antigone">Antigone</persName>
+						</title>. In
+<author>
+							<persName ref="#fh">Hölderlin, F.</persName>
+						</author>, <title level="m" type="main">
+							<persName ref="#fh">Holderlin</persName>'s <persName ref="#sophocles">Sophocles</persName>
+						</title>:<title type="sub">
+							<persName ref="#oedipus">Oedipus</persName> and <persName ref="antigone">Antigone</persName>
+						</title>.
+<editor role="translator">
+							<name>
+								<forename>David</forename>
+								<surname>Constantine</surname>
+							</name>
+						</editor>
+						<pubPlace>Tarset, England</pubPlace>:
+<publisher>Bloodaxe Books Ltd.</publisher>
+						<date>2001</date>
+						<biblScope from="page">114</biblScope>
+					</bibl>
+				</body>
+				<back></back>
+			</text>
+			<pb n="3"/>
+			<figure>
+				<graphic url="02-03-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a woman's mouth, slightly open. Image is monochrome, with ochre tint. Image's right corners are cropped.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone. Image is photo edited from the <ref
+						target="01-03-img.png">original scan</ref>.</note>
+			</figure>
+			<pb n="4"/>
+			<!-- blank page -->
+			<pb n="5"/>
+			<text>
+				<front></front>
+				<!-- Holderlin’s notes on Antigone text, p.116-->
+				<body>
+					<p rendition="r-indent">Hence, as already touched upon in the notes on <persName
+							ref="#oedipus">Oedipus</persName>, the dia-<lb break="no"/>
+                  logic form and the chorus as its antithesis, hence also the dangerous<lb/>
+                  form in the scenes, which, in a way more characteristic of the Greeks,<lb/>
+                  has a necessarily factive outcome in this sense that the word becomes<lb/>
+                  more mediatedly factive and seizes rather the body's senses; but in<lb/>
+                  our times and according to our conception of things, it becomes<lb/>
+                  more immediate and seizes rather the body's spirit. The language<lb/>
+                  of tragedy for the Greeks is lethally factive, because the body it<lb/>
+                  seizes hold of does literally kill. For us, standing as we do under a<lb/>
+						<!-- KK text -->
+                  You dye your words with red You seem to colour a red word You seem to dy-<lb
+							break="no"/>
+                  e a red word They seem to dye a red work They seem to colour a red word<lb/>
+                  They seem to colour a red word.</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="6"/>
+			<text>
+				<front></front>
+				<!-- Holderlin’s notes on Antigone text, p.117-->
+				<body>
+					<p rendition="r-indent">whereas our chief striving in the<lb/>
+                  way our times see things is to hit upon something, to have a fate,<lb/>
+                  because having no fate, being dysmoron, is our weakness</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="7"/>
+			<text>
+				<front></front>
+				<body>
+					<!--Holderlin’s notes on Antigone text, p.114-->
+					<p rendition="r-indent">It was, I
+                  think, necessary to alter the sacred wording here <!--Holderlin’s notes on Antigone text,p.117--> but most of all<lb/>
+                  tragedy consists in factive words that, more a context than an<lb/>
+                  utterance, move in the manner of Fate from the beginning to the end;<lb/>
+						<!-- KK text --> What is it? <supplied reason="superimposed"
+							resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word?</supplied>(superimposed)]</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="8"/>
+			<figure>
+				<graphic url="02-08-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a collage of two images depicting at the bottom half the <ref
+						target="01-03-img.png">original scan</ref> of woman's mouth, slightly open, and at the top part the <ref
+						target="01-11-img.png">original scan</ref> of a woman seen from the side, squatting, with dress hanging behind and reaching the woman's mouth below. A horizontal line divides the two image collaged together, breaking the composition at one third from the bottom. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone. Image is collaged from 2 original scans.</note>
+			</figure>
+			<pb n="9"/>
+			<text>
+				<front></front>
+				<body>
+					<!--Holderlin’s notes on Antigone text, p.114-->
+					<p>The tragically moderate weariness of the times, whose object is<lb/>
+                  of no real interest to the heart, follows the pull of the spirit of the<lb/>
+                  times without the least moderation and this spirit appears then as<lb/>
+                  something wild and not, like a ghost in daylight, sparing man at<lb/>
+                  all, but quite pitiless, as the spirit of the always alive unwritten<lb/>
+                  wilderness and the world of the dead. <!-- KK text: Google translation of the line "Justly with justice, by the law, and hides" --> right Rightly right. <!--Holderlin's text, p.114-->The real<lb/>
+                  language of Sophocles, whereas Aeschylus and Euripides are better<lb/>
+                  able to objectify suffering and anger but less the mind of a man going<lb/>
+                  on its way under the unthinkable.				<!--Holderlin’s notes on Antigone text, p.117-->but most of all<lb/>
+                  tragedy consists in factive words that, more a context than an<lb/>
+                  utterance, move in the manner of Fate from the beginning to end;</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="10"/>
+			<text>
+				<front></front>
+				<body>
+					<!--Holderlin’s notes on Antigone text, p.114-->
+					<p>It was, I think, necessary to alter the sacred wording here</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="11"/>
+			<figure>
+				<graphic url="02-11.img.png"/>
+				<p>right Rightly right</p>
+				<figDesc resp="#MM_contribution">The figure shows a cropped segment of the <ref
+						target="01-11-img.png">original scan</ref> of a pair of women's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The woman is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+			</figure>
+			<pb n="12"/>
+			<!-- blank page -->
+		</group>
+	</TEI>
+	<TEI>
+		<teiHeader type="booklet3">
+			<!-- metadata specific to this booklet goes here --></teiHeader>
+		<group type="booklet3">
+			<pb n="1"/>
+			<group>
+				<text>
+					<front></front>
+					<!-- header "German" -->
+					<!--Walter Benjamin, Task of the translator p.13-->
+					<body>
+						<p>
+							<foreign xml:lang="de">So weit ist sie entfernt, von zwei<lb/>
+                  erstorbenen Sprachen die taube<lb/>
+                  Gleichung zu sein, daß gerade<lb/>
+                  unter allen Formen ihr als<lb/>
+                  Eigenstes es zuf&#228;llt, auf jene<lb/>
+                  Nachreife des fremden Wortes,<lb/>
+                  auf die Wehen des eigenen zu<lb/>
+                  merken.</foreign>
+						</p>S</body>
+					<back></back>
+				</text>
+				<text>
+					<front></front>
+					<!-- header "English" -->
+					<!--de Man, Paul text, p.85-->
+					<body>
+						<p>So if you translate Wehen by<lb/>
+                  “birth pangs,” you would have to<lb/>
+                  translate it by “death pangs” as<lb/>
+                  much as by “birth pangs,” and<lb/>
+                  the stress is perhaps mre on<lb/>
+                  death than on life.</p>
+					</body>
+					<back></back>
+				</text>
+			</group>
+			<pb n="2"/>
+			<!-- blank page -->
+			<pb n="3"/>
+			<figure>
+				<graphic url="03-03-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows two mouths holding a piece of draped sillicone. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+			</figure>
+			<pb n="4"/>
+			<text>
+				<!-- first act, first scene, translations by other people-->
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Together sister a lot! o Ismene head!<lb/> You know something that is not earth father<lb/>
+				   Learned that we live here<lb/> A Nennbares , gehascht since Oedipus was ?<lb/> No traur'ge work, no Irrsal ,<lb/>
+				   And is shameful and dishonorable nowhere a<lb/> I do not see you, my misfortune .<lb/>
+				   But now, you ahnest what the commander<lb/> Made in offner city that we only know ?<lb/>
+				   Did you hear that ? or you do not know<lb/> How to love evil enemies ?<lb/>
+						</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , of loving ,<lb/> 
+				   Not a very nice and not a sad since<lb/> The two brothers , both of us have lost ;<lb/>
+				   The <num>1</num> day running died two hands ;<lb/>
+				   But away when the army of Argos ,<lb/>
+				   Vergangne night, I do not know<lb/>
+				   And I 'm not happy and not worried.<lb/>
+						</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I also thought , and called thee in judgment<lb/>
+				   Because you see could hear more.</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is it that you seem to color a red word ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor not because our brothers<lb/>
+				   Creon gekränzt beschimpfet alternately ?<lb/>
+				   Although Eteocles , they say, he treated<lb/>
+				   With the right right right after and ports<lb/>
+				   Him in the earth, the dead worshipful down there.<lb/>
+				   From the other but the poor died ,<lb/>
+				   Of Polynices ' body do they say that you<lb/>
+				   He preached in the city, it<lb/>
+				   Without heavy mountain and not betraure .<lb/>
+				   You should let him unlamented and grablos ,<lb/>
+				   Sweet meal the birds see licentiousness pleasure.<lb/>
+				   Something in the way , as they say, you have the good Creon<lb/>
+				   And I, for myself, I mean, for expression ,<lb/>
+				   And here he comes , the ignorant<lb/> Clear Report . And the thing is<lb/>
+				   Not, as for everything. Who makes these<lb/>
+				   Is death by stoning in places.<lb/>
+				   So it is you. And soon you will prove<lb/>
+				   Whether gutgeboren whether evil is good ?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="5"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Together sister Handsome ! o Ismene head!<lb/>
+				   You know something that is not earth father<lb/>
+				   Learned us that we live up hither ,<lb/>
+				   A Nennbares , gehascht since Oedipus was ?<lb/>
+				   Not a traur'ge work , no Irrsal ,<lb/>
+				   And is shameful and dishonorable nowhere one<lb/>
+				   I do not seen in yours, my misfortune .<lb/>
+				   But now, you ahnest what the commander<lb/>
+				   Made known to us in offner city , just ?<lb/>
+				   Did you hear ? or do not you know ,<lb/>
+				   How to Love cometh evil enemies ?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , of loving,<lb/>
+				   No lovely and not a sad since<lb/>
+				   The two brothers we both lost;<lb/>
+				   Who died one day from two hands ;<lb/>
+				   But since gone is the army of Argos ,<lb/>
+				   Vergangne night , I know nothing more<lb/>
+				   And I'm not happy and not troubled .</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I thought well, and called thee from the farm gate<lb/>
+				   Because thou 's could particularly hear .</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is it that you seem to color a red word ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor not because our brothers<lb/>
+				   Creon gekränzt , beschimpfet , alternately ?<lb/>
+				   Although Eteocles , they say, he treated<lb/>
+				   With the right legal , law pursuant to , and harbors<lb/>
+				   Him in the earth , the dead worshipful down there .<lb/>
+				   From the other but who died poor ,<lb/>
+				   Of Polynices ' body do they say that you 've<lb/>
+				   It proclaimed in the city , that it<lb/>
+				   With no grave mountain and not betraure .<lb/>
+				   You should let him unlamented and grablos ,<lb/>
+				   Sweet meal the birds see on self-indulgence pleasure.<lb/>
+				   Something like that , they say, has the good Creon you<lb/>
+				   And me, for me , I mean , manifested ,<lb/>
+				   And here he comes, this ignorant<lb/>
+				   Clearly Report . And the thing is<lb/>
+				   Not, as for anything. Whoever does this ,<lb/>
+				   Is the death of stoning in places .<lb/>
+				   So it is you. And soon you 'll prove<lb/>
+				   Whether gutgeboren whether the evil you the good?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="6"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Together Sister Some! o Ismene head!<lb/>
+				   You know something that is not earth father<lb/>
+				   Learned that we live up here<lb/>
+				   A Nennbares , gehascht since Oedipus was ?<lb/>
+				   No traur'ge work, no Irrsal ,<lb/>
+				   And is shameful and dishonorable nowhere a<lb/>
+				   I do not see in thee, my misfortune.<lb/>
+				   But now, you ahnest what the commander<lb/>
+				   Made in offner city that we know only ?<lb/>
+				   Did you hear that ? or you do not know<lb/>
+				   How to love evil enemies?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , of loving ,<lb/>
+				   Not a very nice and not a sad since<lb/>
+				   The two brothers , we have both lost ;<lb/>
+				   The one day died two hands ;<lb/> 
+				   But away as is the army of Argos ,<lb/>
+				   Vergangne night , I do not know anymore<lb/>
+				   And I 'm not happy and not worried.</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I also thought , and called thee from the court<lb/> Because you 's could be heard more .</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is it that you seem to color a red word ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor not because our brothers<lb/>
+				   Creon gekränzt beschimpfet , alternately ?<lb/>
+				   Although Eteocles , they say, he treated<lb/>
+				   With the right right right after and ports<lb/>
+				   Him in the earth, the dead worshipful down there.<lb/>
+				   From the other but the poor died ,<lb/>
+				   Of Polynices ' body do they say that you have<lb/>
+				   He preached in the city, it<lb/>
+				   Without heavy mountain and not betraure .<lb/>
+				   You should let him unlamented and grablos ,<lb/>
+				   Sweet meal the birds see licentiousness pleasure.<lb/>
+				   Something in the way , as they say, the good Creon has you<lb/>
+				   And I, for myself, I mean, for expression ,<lb/>
+				   And here he comes , those ignorant<lb/>
+				   Clear Report . And the thing is<lb/>
+				   Not, as for everything. Who does this<lb/>
+				   Is death by stoning in places.<lb/>
+				   So it is you. And soon you will prove<lb/>
+				   Whether gutgeboren whether evil the good?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="7"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Commonjointsisterlely ! o Ismene head!<lb/>
+				   Do you even know that not the Earth Father<lb/>
+				   Earntthrough permanently with us who live here ,<lb/>
+				   Each name Ables , like Oedipus getsnatched ?<lb/>
+				   No drear -rigged work or no scattering ,<lb/>
+				   And is shameful and dishonorable a nowhere<lb/>
+				   I am in you, not seen my Unlucks .<lb/>
+				   But now you can guess that what Mr. field<lb/>
+				   About Us doneandtold , in open city right now?<lb/>
+				   Have you heard of it? or you do not know<lb/>
+				   How to Loved comes Enemiesevil ?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , love,<lb/>
+				   Non- irritating and / or drearrigged As did<lb/>
+				   The two brothers , both of which we lost ;<lb/>
+				   She died the day of the two hands ;<lb/>
+				   But since gone into the herd of Argos ,<lb/>
+				   Last night, knowing nothing<lb/>
+				   And I'm not happy, and I 'm not sad .</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I thought so too , and called to the farm gate<lb/>
+				   Aboutit that yous could particularly HearIt .</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is't a red word color appear ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor then not our brothers<lb/>
+				   Scolded crowned Creon , wiselyinturn ?<lb/>
+				   Eteocles but behandled that one to him<lb/>
+				   Right Right , Lawaccordingly and stored<lb/>
+				   Dead to honor him in the earth, down there.<lb/>
+				   From the other side , that poor dead,<lb/>
+				   Of Polynices ' body , they say, has<lb/>
+				   He preached in the city, it<lb/>
+				   Without Grabhügelund no sorrow .<lb/>
+				   A goal unlamented and leave tombless him ,<lb/>
+				   Sweet food for birds on Foodmuck welcome .<lb/>
+				   So something that one has the good Creon you<lb/>
+				   And I, because I also , I think , made known ,<lb/>
+				   And here it comes, these unknowns<lb/>
+				   Clearly Report . And the thing is<lb/>
+				   Not, as for everything. Who does what<lb/>
+				   You'd death by stoning in places.<lb/>
+				   So it is you. And now you're wanting to prove<lb/>
+				   If wellborn when evil good?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="8"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Commonjointsisterlely ! o Ismene head!<lb/>
+				   Do you even know that not the Earth Father<lb/>
+				   Earntthrough constantly with us who live here ,<lb/>
+				   Each name Ables , like Oedipus getsnatched ?<lb/>
+				   No drear -rigged work or no scattering ,<lb/>
+				   And is shameful and dishonorable nothing<lb/>
+				   I am in you, not seen my Unlucks .<lb/>
+				   But now that you can imagine what Mr. Field<lb/>
+				   About Us doneandtold , in open city right now?<lb/>
+				   Have you heard of it? or you do not know<lb/>
+				   So Loved comes Enemiesevil ?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , love,<lb/>
+				   Non-irritating and / or drearrigged How have<lb/>
+				   The two brothers , both of which we lost ;<lb/>
+				   She died on the day of the two hands ;<lb/>
+				   But since gone into the herd of Argos,<lb/>
+				   Last night, knowing nothing<lb/>
+				   And I'm not happy, and I 'm not sad .</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I thought so too , and called on the farm-gate<lb/>
+				   Aboutit that yous could particularly HearIt .</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is't a red word in a different color ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor then not our brothers<lb/>
+				   Scolded crowned Creon , wiselyinturn ?<lb/>
+				   Eteocles but behandled that one to him<lb/>
+				   Right Right , Lawaccordingly and stored<lb/>
+				   Dead to honor him in the ground down there.<lb/>
+				   From the other side , that poor dead,<lb/>
+				   Of Polynices ' body , they say, has<lb/>
+				   He preached in the city, it<lb/>
+				   Without Grabhügelund no sorrow .<lb/>
+				   A goal unlamented and let him tombless ,<lb/>
+				   Sweet food for birds on Foodmuck welcome.<lb/>
+				   So something that one has the good Creon you<lb/>
+				   And I, because I also , I think , made known ,<lb/>
+				   And here it comes, these unknowns<lb/>
+				   Clear Report . And the thing is<lb/>
+				   Not, as for everything. Who does what<lb/>
+				   You should death by stoning in places.<lb/>
+				   So it is you. And now you want to prove are<lb/>
+				   If wellborn when evil good ?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="9"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Commonjointsisterlely ! o Ismene head!<lb/>
+				   Do you even know that not the Earth Father<lb/>
+				   Earntthrough with us who live here permanently ,<lb/>
+				   Each name Ables , as Oedipus getsnatched ?<lb/>
+				   Not a drear -rigged work or no stray,<lb/>
+				   And is shameful and dishonorable nowhere a ,<lb/>
+				   That I am in you , not seen my Unlucks .<lb/>
+				   But now , you guessed that what Mr. Field the<lb/>
+				   About Us doneandtold , in open city , right now ?<lb/>
+				   Have you heard of it? or you do not know<lb/>
+				   How on Loved comes Enemiesevil ?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not a word came to me, Antigone , love ,<lb/>
+				   Non-irritating and / or not drearrigged , since did<lb/>
+				   The two brothers , both we lost ;<lb/>
+				   They died one day from two hands ;<lb/>
+				   But since gone to the herd of Argos ,<lb/>
+				   Last night, knowing nothing more<lb/>
+				   And I'm not happy, and I 'm not sad .</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>I thought so too , and called to the yard gate<lb/>
+				   Aboutit that yous could particularly HearIt .</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is't you seem a red word color ?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has the recent honor then not our brothers<lb/>
+				   Creon crowned scolded , wiselyinturn ?<lb/>
+				   Eteocles but behandled that one to him<lb/>
+				   Right Right, Lawaccordingly and stored<lb/>
+				   Him in the earth , the Dead honor down there.<lb/>
+				   From the other hand , that poor dead ,<lb/>
+				   Of Polynices ' body , they say , has<lb/>
+				   It proclaimed in the city , that it<lb/>
+				   Without Grabhügelund no sorrow .<lb/>
+				   One aims unlamented and tombless left him ,<lb/>
+				   Sweet food for birds seen on Foodmuck pleasure.<lb/>
+				   So something that one has the good Creon you<lb/>
+				   And I, cause I also , I think, made known ,<lb/>
+				   And here it comes, these unknowns<lb/>
+				   Clearly report . And the thing is<lb/>
+				   Not, as for anything. Who does something<lb/>
+				   You would Death of stoning in places .<lb/>
+				   So it is you. And now you want to prove<lb/>
+				   If wellborn when evil the good?</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="10"/>
+			<figure>
+				<graphic url="03-10-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows a cropped segment of the <ref
+						target="01-11-img.png"> original scan</ref> of a pair of men's legs, visible from the sole to the knee, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Overlaid drapery bleeds out of the bottom left side of the image. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+			</figure>
+			<pb n="11"/>
+			<text>
+				<front></front>
+				<body>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Commonjointsisterlely! o Ismenes Head!<lb/>
+				   Know you any, that not the Earth Father<lb/>
+				   Earntthrough, with us, the we to hereto live,<lb/>
+				   Any Nameables, since Oedipus getsnatched?<lb/>
+				   Not one drear-rigged Work, or no Erring,<lb/>
+				   And shameful ist and honourless nowhere one,<lb/>
+				   That I in yours, my Unlucks not seen.<lb/>
+				   Now though, guessed you that, what the FieldHerr<lb/>
+				   Us doneandtold, in open City, just now?<lb/>
+				   Have you heard it? or know you not,<lb/>
+				   How on the Loved comes Enemiesevil?</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>Not came one Word to me, Antigone, of Love,<lb/>
+				   Not lovely and/or not drearrigged, sincethat<lb/>
+				   The both Brothers both we lost;<lb/>
+				   They died one Day from two Hands;<lb/>
+				   Since but gone that Herd from Argos is,<lb/>
+				   Last Night, knowing nothing further more<lb/>
+				   And I’m not happy and I’m not sad.</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>That thought I well and cried you out the Yardgate<lb/>
+				   Aboutit, that yous especially hearit could.</p>
+					</sp>
+					<sp who="#ismene">
+						<speaker>I</speaker>
+						<p>What is’t, du scheinst ein rotes Wort zu farben?</p>
+					</sp>
+					<sp who="#antigone">
+						<speaker>A</speaker>
+						<p>Has with the last Honour then not our Brothers<lb/>
+				   Kreon garlanded, scolded, wiselyinturn?<lb/>
+				   Eteokles though, that one behandled he<lb/>
+				   With rightly Right, Lawaccordingly, and saved<lb/>
+				   Him in the Earth, honourable the Dead down there.<lb/>
+				   From other though, that dead is poor,<lb/>
+				   From Polyneikes’ Body say they, one has<lb/>
+				   It in the city preached, that one him<lb/>
+				   With no Grave mound and no mourning.<lb/>
+				   One targets him left unlamented and tombless,<lb/>
+				   Sweet Meal for Birds, who on Foodmuck Lust see.<lb/>
+				   So something, said one, has the good Kreon you<lb/>
+				   And me, cause me’s also my I, madeknown,<lb/>
+				   And here comes it, these Unknowns<lb/>
+				   Clearly to report. And the Thing is<lb/>
+				   Not, like for nothing. Who etwas does this,<lb/>
+				   Them would that Death of Stoning in Places.<lb/>
+				   So stands it to you. And now would you to prove<lb/>
+				   If wellborn, if the evil you the good</p>
+					</sp>
+				</body>
+				<back></back>
+			</text>
+			<pb n="12"/>
+			<!-- blank page -->
+		</group>
+	</TEI>
+	<TEI>
+		<teiHeader type="booklet4">
+			<!-- metadata specific to this booklet goes here --></teiHeader>
+		<group type="booklet4">
+			<pb n="1"/>
+			<text>
+				<front></front>
+				<!-- Holderlin's translation of Antigone, p.2-->
+				<body>
+					<p>
+						<foreign xml:lang="de">due scheinst ein rotes Wort zu f&#228;rben</foreign>
+					</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="2"/>
+			<!-- blank page -->
+			<pb n="3"/>
+			<!-- blank page -->
+			<pb n="4"/>
+			<!-- blank page -->
+			<pb n="5"/>
+			<figure>
+				<graphic url="04-05-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows an elevator shaft of unfinished thirteen story building, with scaffolding elements and a service lift on the right side. The construction is L-shaped, shot from ground level, in sharp perspective. A double S-shape in light beige and grays is collaged in the middle of the image. Image is monochrome.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is artist's own photography collaged with the transparent silicone front cover of the book.</note>
+			</figure>
+			<pb n="6"/>
+			<text>
+				<front></front>
+				<!-- heading: "English"-->
+				<!-- Walter Benjamin Theses on the Philosophy of History, p.256-->
+				<body>
+					<p>There is no document of<lb/>
+				   civilization which is not at the<lb/>
+				   same time a document of<lb/>
+				   barbarism.</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="7"/>
+			<text>
+				<front></front>
+				<body>
+					<p>
+						<!-- Holderlin's notes on Antigone text, p. 114-->It was, I think, necessary to alter the sacred wording here<lb/>
+						<!-- p.116-->form in the scenes, which, in a way more characteristic of the Greeks,<lb/>
+				   has a necessarily factive outcome in this sense that the word becomes<lb/>
+				   more mediatedly factive and seizes rather the body's senses; but in<lb/>
+						<!--p.117-->utterance, move in the manner of Fate from the beginning to the end;<lb/>
+						<!--KK text-->What is it? <supplied reason="superimposed" resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word</supplied> right Rightly right 	<!--p.114-->The real<lb/>
+				   language of Sophocles, whereas Aeschylus and Euripides are better<lb/>
+				   able to objectify suffering and anger but less the mind of a man going<lb/>
+				   on its way under the unthinkable. <!--p.116 -->For us, standing as we do under a<lb/>
+						<!--KK text-->You dye your words with red You seem to colour a red word You seem to dy-<lb
+							break="no"/>
+				   e a red word They seem to dye a red word They seem to colour a red word<lb/>
+				   They seem to color a red word <!--p.117 -->but most of all tragedy consists in factive<lb/>
+				   words that, more a context than an utterance, move in the manner of<lb/>
+				   Fate from the beginning to the end;having no fate, being dysmoron, is our<lb/>
+				   weakness.</p>
+				</body>
+				<back></back>
+			</text>
+			<pb n="8"/>
+			<!-- blank page -->
+			<pb n="9"/>
+			<figure>
+				<graphic url="04-09-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows the <ref target="01-05-img.png">original scan</ref> of a women's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+			</figure>
+			<pb n="10"/>
+			<figure>
+				<graphic url="04-10-img.png"/>
+				<figDesc resp="#MM_contribution">The figure shows the <ref target="01-05-img.png">original scan</ref> of a women's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.</figDesc>
+				<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+			</figure>
+			<pb n="11"/>
+			<!-- blank page -->
+			<pb n="12"/>
+			<!-- blank page -->
+		</group>
+	</TEI>
+</teiCorpus>
