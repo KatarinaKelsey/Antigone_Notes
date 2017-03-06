@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="_04-09-img"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>04-09-img.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>469 x 671</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="ANbooklet1"><label>Antigone Notes - Booklet 1</label><code rend="rectangle" lang="text/css">color: #000000</code></rendition><rendition xml:id="ANbooklet2"><label>Antigone Notes - Booklet 2</label><code rend="rectangle" lang="text/css">color: #808080</code></rendition><rendition xml:id="ANbooklet3"><label>Antione Notes - Booklet 3</label><code rend="rectangle" lang="text/css">color: #c0c0c0</code></rendition><rendition xml:id="ANbooklet4"><label>Antigone Notes - Booklet 4</label><code rend="rectangle" lang="text/css">color: #a0a0a4</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.2" notAfter="2017-03-06T12:42:40">
+     <label>
+     Image Markup Tool</label><desc>
+     </desc><ref type="appURI" target="http://hcmc.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\04-09-img.png" width="469px" height="671px"></graphic><zone xml:id="imtArea_0" rendition="ANbooklet4" ulx="160" uly="12" lrx="300" lry="69" rend="visible"></zone><zone xml:id="imtArea_1" rendition="ANbooklet4" ulx="67" uly="75" lrx="429" lry="653" rend="visible"></zone><zone xml:id="imtArea_2" rendition="ANbooklet4" ulx="147" uly="165" lrx="291" lry="330" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#imtArea_0" type="imtAnnotation"><head>woman's mouth</head><div><p>The figure shows a women's mouth (frontal). Image is monochrome, with ochre tint.</p></div></div><div corresp="#imtArea_1" type="imtAnnotation"><head>silicone drapery</head><div><p>The figure shows a piece of silicone drapery hanging from the woman's mouth. Image is monochrome, with ochre tint.</p></div></div><div corresp="#imtArea_2" type="imtAnnotation"><head>woman's mouth with ectoplasm</head><div><p>The figure shows a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.</p></div></div></div></body></text></TEI>

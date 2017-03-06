@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="_01-03-img"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>01-03-img.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>119 x 72</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="ANbooklet1"><label>Antigone Notes - Booklet 1</label><code rend="rectangle" lang="text/css">color: #000000</code></rendition><rendition xml:id="ANbooklet2"><label>Antigone Notes - Booklet 2</label><code rend="rectangle" lang="text/css">color: #808080</code></rendition><rendition xml:id="ANbooklet3"><label>Antione Notes - Booklet 3</label><code rend="rectangle" lang="text/css">color: #c0c0c0</code></rendition><rendition xml:id="ANbooklet4"><label>Antigone Notes - Booklet 4</label><code rend="rectangle" lang="text/css">color: #a0a0a4</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.2" notAfter="2017-03-06T11:29:57">
+     <label>
+     Image Markup Tool</label><desc>
+     </desc><ref type="appURI" target="http://hcmc.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\01-03-img.png" width="119px" height="72px"></graphic><zone xml:id="imtArea_0" rendition="ANbooklet1" ulx="34" uly="0" lrx="98" lry="56" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#imtArea_0" type="imtAnnotation"><head>woman's mouth</head><div><p>The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.</p></div></div></div></body></text></TEI>

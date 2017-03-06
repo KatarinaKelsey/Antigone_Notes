@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="01-10-img_wv.xsl"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="_01-10-img"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>01-10-img.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1004 x 254</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="ANbooklet1"><label>Antigone Notes - Booklet 1</label><code rend="rectangle" lang="text/css">color: #000000</code></rendition><rendition xml:id="ANbooklet2"><label>Antigone Notes - Booklet 2</label><code rend="rectangle" lang="text/css">color: #808080</code></rendition><rendition xml:id="ANbooklet3"><label>Antione Notes - Booklet 3</label><code rend="rectangle" lang="text/css">color: #c0c0c0</code></rendition><rendition xml:id="ANbooklet4"><label>Antigone Notes - Booklet 4</label><code rend="rectangle" lang="text/css">color: #a0a0a4</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.2" notAfter="2017-03-06T11:42:53">
+     <label>
+     Image Markup Tool</label><desc>
+     </desc><ref type="appURI" target="http://hcmc.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\01-10-img.png" width="1004px" height="254px"></graphic><zone xml:id="imtArea_0" rendition="ANbooklet1" ulx="791" uly="10" lrx="1004" lry="224" rend="visible"></zone><zone xml:id="imtArea_1" rendition="ANbooklet1" ulx="3" uly="2" lrx="576" lry="257" rend="visible"></zone><zone xml:id="imtArea_2" rendition="ANbooklet1" ulx="611" uly="2" lrx="874" lry="252" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#imtArea_0" type="imtAnnotation"><head>women's legs</head><div><p>The figure shows a pair of women's legs, from sole to tight, seen from the side, squatting. Image is monochrome, with ochre tint.</p></div></div><div corresp="#imtArea_1" type="imtAnnotation"><head>three pairs of men's legs</head><div><p>The figure shows three pairs of men's legs, from the sole to the knee, in a relaxed third ballet position. They are all wearing ballet shoes and attire. From left to right, the three men are standing in a line, diagonally.Image is monochrome, with ochre tint.</p></div></div><div corresp="#imtArea_2" type="imtAnnotation"><head>men's legs</head><div><p>The figure shows a pair of men's legs, from the sole to the knee, stepping forward, wearing ballet shoes and attire. Image is monochrome, with ochre tint.</p></div></div></div></body></text></TEI>
