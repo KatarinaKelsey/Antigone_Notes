@@ -445,9 +445,9 @@ Fate from the beginning to the end;having no fate, being _dysmoron_, is our
 weakness.
 
 
-![The figure shows the original scan (image 01-05-img.png) of a women's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.][image 04-09-img.png]
+![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.][image 04-09-img.png]
 [image 04-09-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/04-09-img.png "image 04-09-img.png"
 
 
-![The figure shows the original scan (image 01-05-img.png) of a women's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.][image 04-10-img.png]
+![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.][image 04-10-img.png]
 [image 04-10-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/04-10-img.png "image 04-10-img.png"
