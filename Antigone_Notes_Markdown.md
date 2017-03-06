@@ -79,7 +79,7 @@ tragedy consists in factive words that, more a context than an
 utterance, move in the manner of Fate from the beginning to end;  
 It was, I think, necessary to alter the sacred wording here  
 
-![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The woman is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.][image 02-11-img.png]
+![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.][image 02-11-img.png]
 [image 02-11-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/02-11-img.png "image 02-11-img.png"
 right Rightly right
 
