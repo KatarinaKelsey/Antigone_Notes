@@ -2,11 +2,11 @@
 <!--DOCTYPE teiCorpus SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd"-->
 <!-- validation against teil_all.dtd schema (online)-->
 <TEI version="5.2" xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader type="corpus" xml:lang="en">
+	<teiHeader xml:lang="en">
 		<fileDesc>
-			<!--bibliographic description of the TEI file-->
+			<!--bibliographic description of the TEI encoding-->
 			<titleStmt>
-				<title type="marc245a">Antigone Notes</title> :
+				<title type="marc245a">Antigone notes</title> :
 				<title type="marc245b">a digital edition</title>.
 				<author>
 					<persName xml:id="KK" type="marc100" key="lccn-nb2016-020158">
@@ -33,12 +33,13 @@
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
-				<edition n="1">First TEI encoded edition</edition>
+				<edition n="1">First TEI encoded edition</edition>.
 				<respStmt>
 					<resp>Machine readable text compiled and encoded by</resp>
 					<persName ref="#MM">Miglena Minkova</persName>
 				</respStmt>
 			</editionStmt>
+			<extent>1 online resource</extent>
 			<extent>
 				<measure unit="kbit" quantity="45">Fourty-five kilobites</measure>
 				<measure unit="words" quantity="2610">Two tousand six hundred and ten words of source text</measure>
@@ -48,17 +49,14 @@
 					<persName ref="#KK">Katarina Kelsey</persName>
 				</authority>
 				<availability>
-					<p>Available to download from <ref target="https://github.com/KatarinaKelsey/blob/master/Antigone_Notes_TEI_Encoding.xml">Katarina Kelsey's GitHub space</ref>
+					<p>Available to download from: <ref target="https://github.com/KatarinaKelsey/blob/master/Antigone_Notes_TEI_Encoding.xml">Katarina Kelsey's GitHub space</ref>
 					</p>
-					<licence>Released under <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</ref> licence.</licence>
+					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence.</licence>
 				</availability>
 				<idno type="DOI">xx.xxxxxx/xxx--example</idno>
-				<date when="2017-01-22">22 January 2017</date>
+				<date when="2017-01-22">2017</date>
 			</publicationStmt>
-			<notesStmt>
-				<!--to-be-deleted: below note collects together any notes providing information about a text additional to that recorded in other parts of the bibliographic description.-->
-				<note></note>
-			</notesStmt>
+			<!--bibliographic description of the source document from which the TEI encoding is produced-->
 			<sourceDesc>
 				<biblStruct type="book">
 					<monogr>
@@ -67,7 +65,7 @@
 						</author>
 						<title>Antigone Notes</title>
 						<edition>First edition, <date when="2015">2015</date>.
-				      <p> Limited edition of 36 copies.</p>
+				      <p> Limited edition of 15 copies.</p>
 						</edition>
 						<availability status="restricted">
 							<p>Copyright (C) 2015 by <persName ref="#KK">Katarina Kelsey</persName> for <orgName
@@ -202,10 +200,9 @@
 				</listBibl>
 			</sourceDesc>
 		</fileDesc>
-		<!--optional-->
 		<encodingDesc> The objective of this TEI encoding is to provide a basic structure in which the provinance of different texts used in the artist's book can be made explicit. Formatting and layout information preserved.
 			<projectDesc>
-				<p>This encoding is part of a <ref target="xxxxx">GitHub repository</ref> created for the digital version of <persName
+				<p>This encoding is part of a <ref target="https://github.com/KatarinaKelsey/Antigone_Notes">GitHub repository</ref> created for the digital version of <persName
 						ref="#KK">Katarina Kelsey</persName>'s artist's book <title>Antigone Notes</title>. The repository and it's contents are created as part of <persName
 						ref="#MM">Miglena Minkova</persName>'s master thesis submitted on <date
 						when="2017-05">May 2017</date> for the course <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at <name
@@ -213,6 +210,14 @@
 						type="place">Sweden</name>.</p>
 			</projectDesc>
 			<editorialDecl>Parts of the text contain delberate spelling mistakes due to translation methods used by the artist. These are part of the original work and as such no editorial corrections or normalization is applied to them. Special characters marked. </editorialDecl>
+			<classDecl>
+<taxonomy xml:id="lcaf" target="http://authorities.loc.gov/">
+  <bibl>Library of Congress Authority Files</bibl>
+ </taxonomy>
+ <taxonomy xml:id="ddc23">
+  <bibl>Dewey Decimal Classification, edition 23</bibl>
+ </taxonomy>
+</classDecl>
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
@@ -242,7 +247,14 @@
 					</person>
 				</listPerson>
 			</particDesc>
+			<textClass>
+			   <classCode scheme="#ddc23">709.05018</classCode>
+ <keywords scheme="#lcaf">
+  <term>Artists' books</term>
+ </keywords>
+</textClass>
 		</profileDesc>
+		
 		<revisionDesc>For all revisions of this document refer to <ref target="https://github.com/KatarinaKelsey/Antigone_Notes/commits/master/Antigone_Notes_TEI_Encoding.xml">history of commits on GitHub</ref>.
 		   </revisionDesc>
 	</teiHeader>
@@ -450,8 +462,8 @@
 					<figDesc>The figure shows two mouths holding a piece of draped sillicone. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Together sister a lot! o Ismene head!<lb/> You know something that is not earth father<lb/>
@@ -502,8 +514,8 @@
 				   Whether gutgeboren whether evil is good ?</p>
 					</sp>
 				</div>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Together sister Handsome ! o Ismene head!<lb/>
@@ -560,8 +572,8 @@
 				   Whether gutgeboren whether the evil you the good?</p>
 					</sp>
 				</div>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Together Sister Some! o Ismene head!<lb/>
@@ -617,8 +629,8 @@
 				   Whether gutgeboren whether evil the good?</p>
 					</sp>
 				</div>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Commonjointsisterlely ! o Ismene head!<lb/>
@@ -675,8 +687,8 @@
 				   If wellborn when evil good?</p>
 					</sp>
 				</div>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Commonjointsisterlely ! o Ismene head!<lb/>
@@ -733,8 +745,8 @@
 				   If wellborn when evil good ?</p>
 					</sp>
 				</div>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Commonjointsisterlely ! o Ismene head!<lb/>
@@ -790,15 +802,15 @@
 				   So it is you. And now you want to prove<lb/>
 				   If wellborn when evil the good?</p>
 					</sp>
+					<pb/>
 				</div>
-				<pb/>
-				<figure>
+				<figure> 
 					<graphic url="images/03-10-img.png"/>
 					<figDesc>The figure shows a cropped segment of the <ref target="images/01-11-img.png"> original scan</ref> of a pair of men's legs, visible from the sole to the knee, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Overlaid drapery bleeds out of the bottom left side of the image. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
-				<pb/>
 				<div type="creative_translation">
+				   <pb/>
 					<sp who="#antigone">
 						<speaker>A</speaker>
 						<p>Commonjointsisterlely! o Ismenes Head!<lb/>
@@ -855,7 +867,6 @@
 				   If wellborn, if the evil you the good</p>
 					</sp>
 				</div>
-				<pb/>
 				<!-- blank page -->
 			</div>
 			<div type="booklet" n="4">
