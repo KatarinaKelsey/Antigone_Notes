@@ -1,6 +1,6 @@
-#Antigone Notes by Katarina Kelsey
+# Antigone Notes by Katarina Kelsey
 
-##booklet 1
+## booklet 1
 
 Holderlin did not want to fuck Antigone
 
@@ -22,7 +22,7 @@ Holderlin did not want to fuck Antigone
 
 ![From right to left, the figure shows three pairs of men's legs, visible from the sole to the knee, standing in a line, diagonally, in a relaxed third ballet position, and on the left a woman, seen from the side, squatting, with dress hanging behind. They are all wearing ballet shoes and attire. Drapery is hanging behind them. Image is monochrome, with ochre tint.](image 01-11-img.png)
 
-##booklet 2
+## booklet 2
 
 I’ll show you in red
 
@@ -71,7 +71,7 @@ It was, I think, necessary to alter the sacred wording here
 ![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.](image 02-11-img.png)
 right Rightly right
 
-##booklet 3
+## booklet 3
 
 German | English |
 ---  | ---  |
@@ -403,7 +403,7 @@ Them would that Death of Stoning in Places.
 So stands it to you. And now would you to prove  
 If wellborn, if the evil you the good  
 
-##booklet 4
+## booklet 4
 
 due scheinst ein rotes Wort zu färben
 
