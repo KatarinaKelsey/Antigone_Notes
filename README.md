@@ -1,4 +1,4 @@
-##Antigone notes by Katarina Kelsey
+## Antigone notes by Katarina Kelsey
 
 This is the digital edition of the artist book Antigone notes by Katarina Kelsey.
 
