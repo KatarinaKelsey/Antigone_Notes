@@ -4,32 +4,23 @@
 
 Holderlin did not want to fuck Antigone
 
-![The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.][image 01-03-img.png]
-[image 01-03-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-03-img.png "image 01-03-img.png"
+![The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.](image 01-03-img.png)
 
-![The figure shows a woman's mouth. Image is monochrome, with ochre tint.][image 01-04-img.png]
-[image 01-04-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-04-img.png "image 01-04-img.png"
+![The figure shows a woman's mouth. Image is monochrome, with ochre tint.](image 01-04-img.png)
 
-![The figure shows a woman's mouth (frontal). Image is monochrome, with ochre tint.][image 01-05-img.png]
-[image 01-05-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-05-img.png "image 01-05-img.png"
+![The figure shows a woman's mouth (frontal). Image is monochrome, with ochre tint.](image 01-05-img.png)
 
-![The figure shows a woman's mouth closed, with a head leaning slightly forward. Image is monochrome, with ochre tint.][image 01-06-img.png]
-[image 01-06-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-06-img.png "image 01-06-img.png"
+![The figure shows a woman's mouth closed, with a head leaning slightly forward. Image is monochrome, with ochre tint.](image 01-06-img.png)
 
-![The figure shows a woman's mouth (from nose down to chin). Image is monochrome, with ochre tint.][image 01-07-img.png]
-[image 01-07-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-07-img.png "image 01-07-img.png"
+![The figure shows a woman's mouth (from nose down to chin). Image is monochrome, with ochre tint.](image 01-07-img.png)
 
-![The figure shows a woman's  mouth. Image is monochrome, with ochre tint.][image 01-08-img.png]
-[image 01-08-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-08-img.png "image 01-08-img.png"
+![The figure shows a woman's  mouth. Image is monochrome, with ochre tint.](image 01-08-img.png)
 
-![The figure shows a woman's  mouth (nose to top of chin). Image is monochrome, with ochre tint.][image 01-09-img.png]
-[image 01-09-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-09-img.png "image 01-09-img.png"
+![The figure shows a woman's  mouth (nose to top of chin). Image is monochrome, with ochre tint.](image 01-09-img.png)
 
-![The figure shows four pairs of men's legs, from the sole to the knee, in a relaxed third ballet position, and a pair of women's legs, from sole to tight, crouching. They are all wearing ballet shoes and attire. From left to right, the three men are standing in a line, diagonally, one is stepping forward and the woman on the far right, seen from the side, is squatting. Image is monochrome, with ochre tint.][image 01-10-img.png]
-[image 01-10-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-10-img.png "image 01-10-img.png"
+![The figure shows four pairs of men's legs, from the sole to the knee, in a relaxed third ballet position, and a pair of women's legs, from sole to tight, crouching. They are all wearing ballet shoes and attire. From left to right, the three men are standing in a line, diagonally, one is stepping forward and the woman on the far right, seen from the side, is squatting. Image is monochrome, with ochre tint.](image 01-10-img.png)
 
-![From right to left, the figure shows three pairs of men's legs, visible from the sole to the knee, standing in a line, diagonally, in a relaxed third ballet position, and on the left a woman, seen from the side, squatting, with dress hanging behind. They are all wearing ballet shoes and attire. Drapery is hanging behind them. Image is monochrome, with ochre tint.][image 01-11-img.png]
-[image 01-11-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/01-11-img.png "image 01-11-img.png"
+![From right to left, the figure shows three pairs of men's legs, visible from the sole to the knee, standing in a line, diagonally, in a relaxed third ballet position, and on the left a woman, seen from the side, squatting, with dress hanging behind. They are all wearing ballet shoes and attire. Drapery is hanging behind them. Image is monochrome, with ochre tint.](image 01-11-img.png)
 
 ##booklet 2
 
@@ -37,8 +28,7 @@ I’ll show you in red
 
   It was, I think, necessary to alter the sacred wording here 
  
-![The figure shows a woman's mouth, slightly open. Image is monochrome, with ochre tint. Image's right corners are cropped.][image 02-03-img.png]
-[image 02-03-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/02-03-img.png "image 02-03-img.png"
+![The figure shows a woman's mouth, slightly open. Image is monochrome, with ochre tint. Image's right corners are cropped.](image 02-03-img.png)
 
 Hence, as already touched upon in the notes on Oedipus, the dia-  
 logic form and the chorus as its antithesis, hence also the dangerous  
@@ -63,8 +53,7 @@ tragedy consists in factive words that, more a context than an
 utterance, move in the manner of Fate from the beginning to the end;  
 What is it? ~~They seem to colour a red word you seem to colour a Red Word?~~  
 
-![The figure shows a collage of two images depicting at the bottom half the original scan(image 01-03-img.png) of woman's mouth, slightly open, and at the top part the original scan (image 01-11-img.png) of a woman seen from the side, squatting, with dress hanging behind and reaching the woman's mouth below. A horizontal line divides the two image collaged together, breaking the composition at one third from the bottom. Image is monochrome, with ochre tint.][image 02-08-img.png]
-[image 02-08-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/02-08-img.png "image 02-08-img.png"
+![The figure shows a collage of two images depicting at the bottom half the original scan(image 01-03-img.png) of woman's mouth, slightly open, and at the top part the original scan (image 01-11-img.png) of a woman seen from the side, squatting, with dress hanging behind and reaching the woman's mouth below. A horizontal line divides the two image collaged together, breaking the composition at one third from the bottom. Image is monochrome, with ochre tint.](image 02-08-img.png)
 
 The tragically moderate weariness of the times, whose object is  
 of no real interest to the heart, follows the pull of the spirit of the  
@@ -79,8 +68,7 @@ tragedy consists in factive words that, more a context than an
 utterance, move in the manner of Fate from the beginning to end;  
 It was, I think, necessary to alter the sacred wording here  
 
-![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.][image 02-11-img.png]
-[image 02-11-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/02-11-img.png "image 02-11-img.png"
+![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.](image 02-11-img.png)
 right Rightly right
 
 ##booklet 3
@@ -89,8 +77,7 @@ German | English |
 ---  | ---  |
 So weit ist sie entfernt, von zwei <br/> erstorbenen Sprachen die taube <br> Gleichung zu sein, daß gerade <br> unter allen Formen ihr als <br> Eigenstes es zufällt, auf jene <br> Nachreife des fremden Wortes,<br> auf die Wehen des eigenen zu <br> merken. | So if you translate Wehen by <br> “birth pangs,” you would have to <br> translate it by “death pangs” as <br> much as by “birth pangs,” and <br> the stress is perhaps mre on <br> death than on life. |   
 
-![The figure shows two mouths holding a piece of draped silicone. Image is monochrome, with ochre tint.][image 03-03-img.png]
-[image 03-03-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/03-03-img.png "image 03-03-img.png"
+![The figure shows two mouths holding a piece of draped silicone. Image is monochrome, with ochre tint.](image 03-03-img.png)
 
 A  
 Together sister a lot! o Ismene head!  
@@ -368,8 +355,7 @@ You would Death of stoning in places .
 So it is you. And now you want to prove  
 If wellborn when evil the good?  
 
-![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the knee, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Overlaid drapery bleeds out of the bottom left side of the image. Image is monochrome, with ochre tint.][image 03-10-img.png]
-[image 03-10-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/03-10-img.png "image 03-10-img.png"
+![The figure shows a cropped segment of the original scan (image 01-11-img.png) of a pair of men's legs, visible from the sole to the knee, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Overlaid drapery bleeds out of the bottom left side of the image. Image is monochrome, with ochre tint.](image 03-10-img.png)
 
 A  
 Commonjointsisterlely! o Ismenes Head!  
@@ -421,8 +407,7 @@ If wellborn, if the evil you the good
 
 due scheinst ein rotes Wort zu färben
 
-![The figure shows an elevator shaft of unfinished thirteen story building, with scaffolding elements and a service lift on the right side. The construction is L-shaped, shot from ground level, in sharp perspective. A double S-shape in light beige and grays is collaged in the middle of the image. Image is monochrome.][image 04-05-img.png]
-[image 04-05-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/04-05-img.png "image 04-05-img.png"
+![The figure shows an elevator shaft of unfinished thirteen story building, with scaffolding elements and a service lift on the right side. The construction is L-shaped, shot from ground level, in sharp perspective. A double S-shape in light beige and grays is collaged in the middle of the image. Image is monochrome.](image 04-05-img.png)
 
 English |
 --- |
@@ -445,9 +430,7 @@ Fate from the beginning to the end;having no fate, being _dysmoron_, is our
 weakness.
 
 
-![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.][image 04-09-img.png]
-[image 04-09-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/04-09-img.png "image 04-09-img.png"
+![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.](image 04-09-img.png)
 
 
-![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.][image 04-10-img.png]
-[image 04-10-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/04-10-img.png "image 04-10-img.png"
+![The figure shows the original scan (image 01-05-img.png) of a woman's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.](image 04-10-img.png)
