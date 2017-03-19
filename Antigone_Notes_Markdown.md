@@ -89,7 +89,7 @@ German | English |
 ---  | ---  |
 So weit ist sie entfernt, von zwei <br/> erstorbenen Sprachen die taube <br> Gleichung zu sein, daß gerade <br> unter allen Formen ihr als <br> Eigenstes es zufällt, auf jene <br> Nachreife des fremden Wortes,<br> auf die Wehen des eigenen zu <br> merken. | So if you translate Wehen by <br> “birth pangs,” you would have to <br> translate it by “death pangs” as <br> much as by “birth pangs,” and <br> the stress is perhaps mre on <br> death than on life. |   
 
-![The figure shows two mouths holding a piece of draped sillicone. Image is monochrome, with ochre tint.][image 03-03-img.png]
+![The figure shows two mouths holding a piece of draped silicone. Image is monochrome, with ochre tint.][image 03-03-img.png]
 [image 03-03-img.png]: https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/03-03-img.png "image 03-03-img.png"
 
 A  
