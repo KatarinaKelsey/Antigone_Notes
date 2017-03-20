@@ -53,7 +53,6 @@
 					</p>
 					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence.</licence>
 				</availability>
-				<idno type="DOI">xx.xxxxxx/xxx--example</idno>
 				<date when="2017-01-22">2017</date>
 			</publicationStmt>
 			<!--bibliographic description of the source document from which the TEI encoding is produced-->
@@ -212,7 +211,7 @@
 						ref="http://www.hb.se">University of Boras</orgName>, <placeName>Sweden</placeName>.</p>
 			</projectDesc>
 			<editorialDecl>
-				<p>Parts of the text contain delberate spelling mistakes due to translation methods used by the artist. These are part of the original work and as such no editorial corrections or normalization is applied to them. Special characters marked.</p>
+				<p>Parts of the text contain deliberate spelling mistakes due to translation methods used by the artist. These are part of the original work and as such no editorial corrections or normalization is applied to them. Special characters marked.</p>
 			</editorialDecl>
 			<classDecl>
 				<taxonomy xml:id="lcaf">
@@ -271,7 +270,7 @@
 		<body>
 			<div type="booklet" n="1">
 				<pb/>
-				<p>
+				<p resp="KK">
 					<!-- KK text -->
 					<persName ref="#fh">Holderlin</persName> did not want to fuck <persName
 						ref="#antigone">Antigone</persName>
@@ -338,10 +337,10 @@
 			<div type="booklet" n="2">
 				<pb/>
 				<!-- KK text -->
-				<p>I’ll show you in red</p>
+				<p resp="KK">I’ll show you in red</p>
 				<pb/>
 				<p>
-					<quote source="#HolderlinsNotesToAntigone">It was, I think, necessary to alter the sacred wording here</quote>
+					<quote source="#HolderlinsNotesToAntigone" n="p.114">It was, I think, necessary to alter the sacred wording here</quote>
 				</p>
 				<pb/>
 				<figure>
@@ -353,10 +352,10 @@
 				<pb/>
 				<!-- blank page -->
 				<pb/>
-				<p rendition="r-indent">
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.116-->Hence, as already touched upon in the notes on <persName
-							ref="#oedipus">Oedipus</persName>, the dia-<lb break="no"/>
+				<p rendition="r-indent" resp="KK">
+					<quote source="#HolderlinsNotesToAntigone" n="p.116">
+						Hence, as already touched upon in the notes on <persName ref="#oedipus">Oedipus</persName>, the dia-<lb
+							break="no"/>
                   logic form and the chorus as its antithesis, hence also the dangerous<lb/>
                   form in the scenes, which, in a way more characteristic of the Greeks,<lb/>
                   has a necessarily factive outcome in this sense that the word becomes<lb/>
@@ -366,31 +365,27 @@
                   of tragedy for the Greeks is lethally factive, because the body it<lb/>
                   seizes hold of does literally kill. For us, standing as we do under a<lb/>
 					</quote>
-					<!-- KK text -->
                   You dye your words with red You seem to colour a red word You seem to dy-<lb
 						break="no"/>
                   e a red word They seem to dye a red work They seem to colour a red word<lb/>
                   They seem to colour a red word.</p>
 				<pb/>
 				<p rendition="r-indent">
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.117-->
+					<quote source="#HolderlinsNotesToAntigone" n="p.117">
 						whereas our chief striving in the<lb/>
                   way our times see things is to hit upon something, to have a fate,<lb/>
                   because having no fate, being <emph>dysmoron</emph>, is our weakness</quote>
 				</p>
 				<pb/>
-				<p rendition="r-indent">
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.114-->It was, I
-                  think, necessary to alter the sacred wording here</quote>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.117--> but most of all<lb/>
+				<p rendition="r-indent" resp="KK">
+					<quote source="#HolderlinsNotesToAntigone" n="p.114">
+						It was, I think, necessary to alter the sacred wording here</quote>
+					<quote source="#HolderlinsNotesToAntigone" n="p.117">
+						but most of all<lb/>
                   tragedy consists in factive words that, more a context than an<lb/>
                   utterance, move in the manner of Fate from the beginning to the end;<lb/>
 					</quote>
-					<!-- KK text --> What is it? <supplied reason="superimposed"
-						resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word?</supplied>
+					What is it? <supplied reason="superimposed" resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word?</supplied>
 				</p>
 				<pb/>
 				<figure>
@@ -401,29 +396,29 @@
 					<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone. Image is collaged from 2 original scans.</note>
 				</figure>
 				<pb/>
-				<p>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.114-->The tragically moderate weariness of the times, whose object is<lb/>
+				<p resp="KK">
+					<quote source="#HolderlinsNotesToAntigone" n="p.114">
+						The tragically moderate weariness of the times, whose object is<lb/>
                   of no real interest to the heart, follows the pull of the spirit of the<lb/>
                   times without the least moderation and this spirit appears then as<lb/>
                   something wild and not, like a ghost in daylight, sparing man at<lb/>
                   all, but quite pitiless, as the spirit of the always alive unwritten<lb/>
                   wilderness and the world of the dead. </quote>
-					<!-- KK text: Google translation of the line "Justly with justice, by the law, and hides" --> right Rightly right. <quote
-						source="#HolderlinsNotesToAntigone">
-						<!-- p.114-->The real<lb/>
+                  right Rightly right. <quote source="#HolderlinsNotesToAntigone"
+						n="p.114">
+						The real<lb/>
                   language of Sophocles, whereas Aeschylus and Euripides are better<lb/>
                   able to objectify suffering and anger but less the mind of a man going<lb/>
                   on its way under the unthinkable.</quote>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.117-->but most of all<lb/>
+					<quote source="#HolderlinsNotesToAntigone" n="p.117">
+						but most of all<lb/>
                   tragedy consists in factive words that, more a context than an<lb/>
                   utterance, move in the manner of Fate from the beginning to end;</quote>
 				</p>
 				<pb/>
 				<p>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.114-->It was, I think, necessary to alter the sacred wording here</quote>
+					<quote source="#HolderlinsNotesToAntigone" n="p.114">
+						It was, I think, necessary to alter the sacred wording here</quote>
 				</p>
 				<pb/>
 				<figure>
@@ -437,11 +432,16 @@
 			</div>
 			<div type="booklet" n="3">
 				<pb/>
-				<!-- header "German" -->
-				<p>
-					<quote source="#BenjaminTaskTranslator">
-						<!-- p.13-->
-						<foreign xml:lang="de">So weit ist sie entfernt, von zwei<lb/>
+				<table rows="2" cols="2">
+					<row role="label">
+						<cell role="language">German</cell>
+						<cell role="language">English</cell>
+					</row>
+					<row role="data">
+						<cell>
+							<p>
+								<quote source="#BenjaminTaskTranslator" n="p.13">
+									<foreign xml:lang="de">So weit ist sie entfernt, von zwei<lb/>
                   erstorbenen Sprachen die taube<lb/>
                   Gleichung zu sein, daß gerade<lb/>
                   unter allen Formen ihr als<lb/>
@@ -449,18 +449,22 @@
                   Nachreife des fremden Wortes,<lb/>
                   auf die Wehen des eigenen zu<lb/>
                   merken.</foreign>
-					</quote>
-				</p>
-				<!-- header "English" -->
-				<p>
-					<quote source="#deManConclusions">
-						<!-- p.85-->So if you translate Wehen by<lb/>
+								</quote>
+							</p>
+						</cell>
+						<cell>
+							<p>
+								<quote source="#deManConclusions" n="p.85">
+						So if you translate Wehen by<lb/>
                   “birth pangs,” you would have to<lb/>
                   translate it by “death pangs” as<lb/>
                   much as by “birth pangs,” and<lb/>
                   the stress is perhaps mre on<lb/>
                   death than on life.</quote>
-				</p>
+							</p>
+						</cell>
+					</row>
+				</table>
 				<pb/>
 				<!-- blank page -->
 				<pb/>
@@ -879,8 +883,7 @@
 			<div type="booklet" n="4">
 				<pb/>
 				<p>
-					<quote source="#SophoclesAntigone">
-						<!-- p.2-->
+					<quote source="#SophoclesAntigone" n="p.2">
 						<foreign xml:lang="de">due scheinst ein rotes Wort zu f&#228;rben</foreign>
 					</quote>
 				</p>
@@ -897,41 +900,49 @@
 					<note type="analytical" resp="#MM_contribution">Image is artist's own photography collaged with the transparent silicone front cover of the book.</note>
 				</figure>
 				<pb/>
-				<!-- heading: "English"-->
-				<p>
-					<quote source="#BenjaminThesesPhilosophyandHistory">
-						<!-- p.256-->There is no document of<lb/>
+				<table rows="2" cols="1">
+					<row role="label">
+						<cell role="language">English</cell>
+					</row>
+					<row role="data">
+						<cell>
+							<p>
+								<quote source="#BenjaminThesesPhilosophyandHistory" n="p.256">
+					There is no document of<lb/>
 				   civilization which is not at the<lb/>
 				   same time a document of<lb/>
 				   barbarism.</quote>
-				</p>
+							</p>
+						</cell>
+					</row>
+				</table>
 				<pb/>
-				<p>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.114-->It was, I think, necessary to alter the sacred wording here<lb/>
+				<p resp="KK">
+					<quote source="#HolderlinsNotesToAntigone" n="p.114">
+						It was, I think, necessary to alter the sacred wording here<lb/>
 					</quote>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!-- p.116-->form in the scenes, which, in a way more characteristic of the Greeks,<lb/>
+					<quote source="#HolderlinsNotesToAntigone" n="p.116">
+					form in the scenes, which, in a way more characteristic of the Greeks,<lb/>
 				   has a necessarily factive outcome in this sense that the word becomes<lb/>
 				   more mediatedly factive and seizes rather the body's senses; but in<lb/>
 					</quote>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!--p.117-->utterance, move in the manner of Fate from the beginning to the end;<lb/>
+					<quote source="#HolderlinsNotesToAntigone" n="p.117">
+						utterance, move in the manner of Fate from the beginning to the end;<lb/>
 					</quote>
-					<!--KK text-->What is it? <supplied reason="superimposed" resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word</supplied> right Rightly right 	<quote
-						source="#HolderlinsNotesToAntigone">
-						<!--p.114-->The real<lb/>
+					What is it? <supplied reason="superimposed" resp="#KK_contribution">They seem to colour a red word you seem to colour a Red Word</supplied> right Rightly right<quote
+						source="#HolderlinsNotesToAntigone" n="p.114">
+					The real<lb/>
 				   language of Sophocles, whereas Aeschylus and Euripides are better<lb/>
 				   able to objectify suffering and anger but less the mind of a man going<lb/>
 				   on its way under the unthinkable.</quote>
-					<quote source="#HolderlinsNotesToAntigone">
-						<!--p.116 -->For us, standing as we do under a<lb/>
+					<quote source="#HolderlinsNotesToAntigone" n="p.116">
+						For us, standing as we do under a<lb/>
 					</quote>
-					<!--KK text-->You dye your words with red You seem to colour a red word You seem to dy-<lb
+					You dye your words with red You seem to colour a red word You seem to dy-<lb
 						break="no"/>
 				   e a red word They seem to dye a red word They seem to colour a red word<lb/>
-				   They seem to color a red word <quote source="#HolderlinsNotesToAntigone">
-						<!--p.117 -->but most of all tragedy consists in factive<lb/>
+				   They seem to color a red word <quote source="#HolderlinsNotesToAntigone"
+						n="p.117">but most of all tragedy consists in factive<lb/>
 				   words that, more a context than an utterance, move in the manner of<lb/>
 				   Fate from the beginning to the end;having no fate, being <emph>dysmoron</emph>, is our<lb/>
 				   weakness.</quote>
