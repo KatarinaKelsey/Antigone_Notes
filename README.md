@@ -5,7 +5,7 @@ The repository contains Markdown and TEI encodings of the text, images and compl
 The purpose of the repository is to provide access to the content of the artist's book in a machine readable, structured, sustainable and flexible form.
 This offers the opportunity for the author and the users of the repository to interact with the artist's book in a programmable way and further experiment, collaborate and publish their own digital editions.
  
-The primary source document used to compile the digital edition is the print version of the same work, which was originally made in a limited edition of 15 copies in response to [AMBruno](http://www.ambruno.co.uk/)’s [2015 Red project](http://www.ambruno.co.uk/red.html).
+The primary source document used to compile the digital edition is the print version of the same work, originally made in a limited edition of 15 copies in response to [AMBruno](http://www.ambruno.co.uk/)’s [2015 Red project](http://www.ambruno.co.uk/red.html).
 In *Antigone Notes*, Katarina Kelsey takes a single line from Hölderlin’s (1982) controversial translation of Sophocles’ Antigone, and explores the process and the role of translation in conveying the meaning of **red** throughout the story. 
 She achieves this by textually interrogating various sources, employing creative translation practices, and materially presenting the results of her research process through transfer prints, heavily waxed and flaking paper and silicone. 
 
@@ -32,11 +32,6 @@ Feel free to add GitHub Issue if you require additional data types.
 
 ### Usage guidelines
 
-The contents of this repository are published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. The text, images and audio are published as they are and the author does not offer any warranties.
-
-Please provide attribution both to Katarina Kelsey and AMBruno when using any of the data in this repository.
-
-### User contributions
 The contents of this repository are published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. The images and text are published as they are and the author does not offer any warranties.
 
 Please provide attribution both to [Katarina Kelsey](https://www.katarinakelsey.co.uk) and [AMBruno](http://www.ambruno.co.uk/) when using any of the data in this repository.
