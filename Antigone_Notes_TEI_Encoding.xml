@@ -6,8 +6,8 @@
 		<fileDesc>
 			<!--bibliographic description of the TEI encoding-->
 			<titleStmt>
-				<title type="marc245a">Antigone notes:</title>
-				<title type="marc245b">a digital edition.</title>
+				<title level="m" type="marc245a">Antigone notes:</title>
+				<title level="m" type="marc245b">a digital edition.</title>
 				<author>
 					<persName xml:id="KK" type="marc100" key="lccn-nb2016-020158">
 						<surname>Kelsey</surname>, <forename>Katarina</forename>.</persName>
@@ -62,7 +62,7 @@
 						<author ref="#KK">
 							<surname>Kelsey</surname>, <forename>Katarina</forename>
 						</author>
-						<title>Antigone Notes</title>
+						<title level="m" type="marc245a">Antigone Notes</title>
 						<edition>First edition, <date when="2015">2015</date>.
 						</edition>
 						<edition>Limited edition of 15 copies.</edition>
@@ -101,9 +101,9 @@
 						</title>. In
 <author>
 							<persName ref="#fh">Hölderlin, F.</persName>
-						</author>, <title level="m" type="main">
+						</author>, <title level="m" type="marc245a">
 							<persName ref="#fh">Holderlin</persName>'s <persName ref="#sophocles">Sophocles</persName>
-						</title>:<title type="sub">
+						</title>:<title type="marc245b">
 							<persName ref="#oedipus">Oedipus</persName> and <persName ref="#antigone">Antigone</persName>
 						</title>.
 <editor role="translator">
@@ -121,7 +121,7 @@
 						<author>
 							<persName ref="#sophocles">Sophocles</persName>
 						</author>, 
-				   <title level="m" type="main">
+				   <title level="m" type="marc245a">
 							<persName ref="#antigone">Antigone</persName>
 						</title>
 						<editor role="translator">
@@ -137,7 +137,7 @@
 							<persName>
 								<surname>Benjamin</surname>,<forename>Walter</forename>
 							</persName>
-						</author>.<title level="m" type="main">
+						</author>.<title level="m" type="marc245a">
 							Illuminations
 						</title>.
 						<editor>
@@ -164,7 +164,7 @@
 							<persName>
 								<surname>Benjamin</surname>,<forename>Walter</forename>
 							</persName>
-						</author>.<title level="m" type="main">
+						</author>.<title level="m" type="marc245a">
 							Illuminations
 						</title>.
 						<editor>
@@ -190,7 +190,7 @@
 							<persName>
 								<surname>de Man</surname>,<forename>Paul</forename>
 							</persName>
-						</author>, <title level="m" type="main">
+						</author>, <title level="m" type="marc245a">
 							The resistance to theory
 						</title>.
 						<pubPlace>Minneapolis</pubPlace>:
@@ -432,7 +432,7 @@
 			</div>
 			<div type="booklet" n="3">
 				<pb/>
-				<table rows="2" cols="2">
+				<table rows="2" cols="2" type="GoogleTranslate">
 					<row role="label">
 						<cell role="language">German</cell>
 						<cell role="language">English</cell>
@@ -900,7 +900,7 @@
 					<note type="analytical" resp="#MM_contribution">Image is artist's own photography collaged with the transparent silicone front cover of the book.</note>
 				</figure>
 				<pb/>
-				<table rows="2" cols="1">
+				<table rows="2" cols="1" type="GoogleTranslate">
 					<row role="label">
 						<cell role="language">English</cell>
 					</row>
