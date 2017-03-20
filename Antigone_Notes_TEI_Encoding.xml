@@ -114,7 +114,7 @@
 						</editor>
 						<pubPlace>Tarset, England</pubPlace>:
 <publisher>Bloodaxe Books</publisher>,
-						<date>2001</date>.
+						<date when="2001">2001</date>.
 					Available <ref target="https://www.scribd.com/doc/88642241/Hölderlin-s-Antigone">online</ref>.
 				</bibl>
 					<bibl xml:id="SophoclesAntigone">
@@ -127,12 +127,12 @@
 						<editor role="translator">
 							<persName ref="fh">Hölderlin, F.</persName>
 						</editor>
-						<date>1982</date>
+						<date when="1982">1982</date>
 					Available <ref target="http://gutenberg.spiegel.de/buch/antigone-6244/1">online</ref>.
 				</bibl>
 					<bibl xml:id="BenjaminTaskTranslator">
 						<title level="a">Task of the translator
-						</title>.<date>1923</date> In
+						</title>.<date when="1923">1923</date> In
 						<author>
 							<persName>
 								<surname>Benjamin</surname>,<forename>Walter</forename>
@@ -154,12 +154,12 @@
 						</editor>
 						<pubPlace>New York</pubPlace>:
 <publisher>Schocken Books</publisher>,
-						<date>1969</date>.
+						<date when="1969">1969</date>.
 					Available <ref target="https://victorianpersistence.files.wordpress.com/2013/10/walter-benjamin-the-task-of-the-translator-an-introduction-to-the-translation-of-baudelaires-tableaux-parisiens.pdf">online</ref>.
 				</bibl>
 					<bibl xml:id="BenjaminThesesPhilosophyandHistory">
 						<title level="a">Theses on the philosophy of history
-						</title>. <date>1940</date> In
+						</title>. <date when="1940">1940</date> In
 						<author>
 							<persName>
 								<surname>Benjamin</surname>,<forename>Walter</forename>
@@ -181,7 +181,8 @@
 						</editor>
 						<pubPlace>New York</pubPlace>:
 <publisher>Schocken Books</publisher>,
-						<date>1969</date>.
+						<date when="1969">1969</date>.
+						Available <ref target="http://pages.ucsd.edu/~rfrank/class_web/ES-200A/Week%202/benjamin_ps.pdf">online</ref>.
 				</bibl>
 					<bibl xml:id="deManConclusions">
 						<title level="a">Conclusions: Walter Benjamin's 'The Task of the Translator.
@@ -195,9 +196,31 @@
 						</title>.
 						<pubPlace>Minneapolis</pubPlace>:
 <publisher>University of Minnesota Press</publisher>,
-						<date>1986</date>.
+						<date when="1986">1986</date>.
 					Available <ref target="http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf">online</ref>.
 				</bibl>
+					<bibl xml:id="SteinerAntigones">
+						<author>
+							<persName>
+								<surname>Steiner</surname>,<forename>George</forename>
+							</persName>
+						</author>.<title level="m" type="marc245a">Antigones:</title>
+						<title level="m" type="marc245b">How the Antigone legend has endured in Western literature, art, and thought</title>.
+						<pubPlace>Oxford, England</pubPlace>:
+<publisher>Oxford University Press</publisher>,
+						<date when="1969">1969</date>.
+						</bibl>
+					<bibl xml:id="ButlerAntionesClaim">
+						<author>
+							<persName>
+								<surname>Butler</surname>,<forename>Judith</forename>
+							</persName>
+						</author>.<title level="m" type="marc245a">Antigone's claim:</title>
+						<title level="m" type="marc245b">Kinship between life and death</title>.
+						<pubPlace>New York, New York</pubPlace>:
+<publisher>Columbia University Press</publisher>,
+						<date when="2000">2000</date>.
+						</bibl>
 				</listBibl>
 			</sourceDesc>
 		</fileDesc>
@@ -207,7 +230,7 @@
 				<p>This encoding is part of a <ref target="https://github.com/KatarinaKelsey/Antigone_Notes">GitHub repository</ref> created for the digital version of <persName
 						ref="#KK">Katarina Kelsey</persName>'s artist's book <title>Antigone Notes</title>. The repository and it's contents are created as part of <persName
 						ref="#MM">Miglena Minkova</persName>'s master thesis submitted on <date
-						when="2017-05">May 2017</date> for the course <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at <orgName
+						when="2017-05-19">19 May 2017</date> for the course <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at <orgName
 						ref="http://www.hb.se">University of Boras</orgName>, <placeName>Sweden</placeName>.</p>
 			</projectDesc>
 			<editorialDecl>
@@ -279,55 +302,55 @@
 				<!-- blank page -->
 				<pb/>
 				<figure>
-					<graphic url="images/01-03-img.png"/>
-					<figDesc>The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.</figDesc>
-					<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-03-img.png"/>
+					<figDesc resp="#MM_contribution">The figure shows a woman's mouth, slightly open, with a head tilted backwards. Image is monochrome, with ochre tint.</figDesc>
+					<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a book with theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-04-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-04-img.png"/>
 					<figDesc>The figure shows a woman's mouth. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-05-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-05-img.png"/>
 					<figDesc>The figure shows a woman's mouth (frontal). Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-06-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-06-img.png"/>
 					<figDesc>The figure shows a woman's mouth closed, with a head leaning slightly forward. Image is monochrome, with ochre tint. </figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-07-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-07-img.png"/>
 					<figDesc>The figure shows a woman's mouth (from nose down to chin). Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-08-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-08-img.png"/>
 					<figDesc>The figure shows a woman's  mouth. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-09-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-09-img.png"/>
 					<figDesc>The figure shows a woman's  mouth (nose to top of chin). Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-10-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-10-img.png"/>
 					<figDesc>The figure shows four pairs of men's legs, from the sole to the knee, in a relaxed third ballet position, and a pair of women's legs, from sole to tight, crouching. They are all wearing ballet shoes and attire. From left to right, the three men are standing in a line, diagonally, one is stepping forward and the woman on the far right, seen from the side, is squatting. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution"> Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/01-11-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/01-11-img.png"/>
 					<figDesc>From right to left, the figure shows three pairs of men's legs, visible from the sole to the knee, standing in a line, diagonally, in a relaxed third ballet position, and on the left a woman, seen from the side, squatting, with dress hanging behind. They are all wearing ballet shoes and attire. Drapery is hanging behind them. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
 				</figure>
@@ -344,7 +367,7 @@
 				</p>
 				<pb/>
 				<figure>
-					<graphic url="images/02-03-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/02-03-img.png"/>
 					<figDesc>The figure shows a woman's mouth, slightly open. Image is monochrome, with ochre tint. Image's right corners are cropped.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned and cropped by the artist from a found book of theatre stage adaptations of Antigone. Image is photo edited from the <ref
 							target="images/01-03-img.png">original scan</ref>.</note>
@@ -389,7 +412,7 @@
 				</p>
 				<pb/>
 				<figure>
-					<graphic url="images/02-08-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/02-08-img.png"/>
 					<figDesc>The figure shows a collage of two images depicting at the bottom half the <ref
 							target="images/01-03-img.png">original scan</ref> of woman's mouth, slightly open, and at the top part the <ref
 							target="images/01-11-img.png">original scan</ref> of a woman seen from the side, squatting, with dress hanging behind and reaching the woman's mouth below. A horizontal line divides the two image collaged together, breaking the composition at one third from the bottom. Image is monochrome, with ochre tint.</figDesc>
@@ -422,7 +445,7 @@
 				</p>
 				<pb/>
 				<figure>
-					<graphic url="images/02-11.img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/02-11.img.png"/>
 					<p>right Rightly right</p>
 					<figDesc>The figure shows a cropped segment of the <ref target="images/01-11-img.png">original scan</ref> of a pair of men's legs, visible from the sole to the mid calf, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone.</note>
@@ -469,7 +492,7 @@
 				<!-- blank page -->
 				<pb/>
 				<figure>
-					<graphic url="images/03-03-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/03-03-img.png"/>
 					<figDesc>The figure shows two mouths holding a piece of draped silicone. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
@@ -816,7 +839,7 @@
 					<pb/>
 				</div>
 				<figure>
-					<graphic url="images/03-10-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/03-10-img.png"/>
 					<figDesc>The figure shows a cropped segment of the <ref target="images/01-11-img.png"> original scan</ref> of a pair of men's legs, visible from the sole to the knee, in a relaxed third ballet position. A dark line runs vertically in the front middle of the left leg. The man is wearing ballet shoes and attire. Drapery is hanging behind. Overlaid drapery bleeds out of the bottom left side of the image. Image is monochrome, with ochre tint.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
@@ -895,7 +918,7 @@
 				<!-- blank page -->
 				<pb/>
 				<figure>
-					<graphic url="images/04-05-img.png"/>
+					<graphic source="#KK" resp="KK" url="images/04-05-img.png"/>
 					<figDesc>The figure shows an elevator shaft of unfinished thirteen story building, with scaffolding elements and a service lift on the right side. The construction is L-shaped, shot from ground level, in sharp perspective. A double S-shape in light beige and grays is collaged in the middle of the image. Image is monochrome.</figDesc>
 					<note type="analytical" resp="#MM_contribution">Image is artist's own photography collaged with the transparent silicone front cover of the book.</note>
 				</figure>
@@ -951,15 +974,15 @@
 				<!-- blank page -->
 				<pb/>
 				<figure>
-					<graphic url="images/04-09-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/04-09-img.png"/>
 					<figDesc>The figure shows the <ref target="images/01-05-img.png">original scan</ref> of a woman's mouth (frontal), a piece of silicone hanging from underneath it, and a found image of a woman’s mouth, with ectoplasm, from a séance. Image is monochrome, with ochre tint.</figDesc>
-					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
 				<pb/>
 				<figure>
-					<graphic url="images/04-10-img.png"/>
+					<graphic source="#SteinerAntigones" resp="#KK" url="images/04-10-img.png"/>
 					<figDesc>The figure shows the <ref target="images/01-05-img.png">original scan</ref> of a woman's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.</figDesc>
-					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a found book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
+					<note type="analytical" resp="#MM_contribution">Image is scanned cropped by the artist from a book of theatre stage adaptations of Antigone and it is collaged together with the artist's own photography of the transparent silicone front cover of the book.</note>
 				</figure>
 				<pb/>
 				<!-- blank page -->
