@@ -75,7 +75,7 @@ right Rightly right
 
 German | English |
 ---  | ---  |
-So weit ist sie entfernt, von zwei <br/> erstorbenen Sprachen die taube <br> Gleichung zu sein, daß gerade <br> unter allen Formen ihr als <br> Eigenstes es zufällt, auf jene <br> Nachreife des fremden Wortes,<br> auf die Wehen des eigenen zu <br> merken. | So if you translate Wehen by <br> “birth pangs,” you would have to <br> translate it by “death pangs” as <br> much as by “birth pangs,” and <br> the stress is perhaps mre on <br> death than on life. |   
+So weit ist sie entfernt, von zwei <br> erstorbenen Sprachen die taube <br> Gleichung zu sein, daß gerade <br> unter allen Formen ihr als <br> Eigenstes es zufällt, auf jene <br> Nachreife des fremden Wortes,<br> auf die Wehen des eigenen zu <br> merken. | So if you translate Wehen by <br> “birth pangs,” you would have to <br> translate it by “death pangs” as <br> much as by “birth pangs,” and <br> the stress is perhaps mre on <br> death than on life. |   
 
 ![The figure shows two mouths holding a piece of draped silicone. Image is monochrome, with ochre tint.](images/03-03-img.png)
 
@@ -434,3 +434,20 @@ weakness.
 
 
 ![The figure shows the original scan (images/01-05-img.png) of a woman's mouth (frontal) and several pieces of silicone hanging underneath and around it. Image is monochrome, with ochre tint.](images/04-10-img.png)
+
+## information sheet
+
+Antigone Notes: Red;  
+performs a presentation of possession - its power play has spurting and gathering  
+out fabric as fabric The performer edits this power play fill up the pierced by the with.  
+is materialization
+
+
+1. 
+2. Holderlin reordered
+3. Walter Benjamin | Paul de Man; Holderlin reordered
+4. Holderlin Reordered; Walter Benjamin | ; Holderlin reordered
+
+
+Part of AM Bruno Red project 2015.  
+Katarina Kelsey http://katarinakelseybookarts.tumblr.com/
