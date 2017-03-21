@@ -1,4 +1,6 @@
+![Antigone Notes cover fragment](https://github.com/KatarinaKelsey/Antigone_Notes/blob/master/images/cover-fragment-1-img.png)
 # *Antigone Notes* by Katarina Kelsey
+
 
 This is the modular open-source digital edition of the artist's book *Antigone Notes* by Katarina Kelsey.  
 The repository contains Markdown and TEI encodings of the text, images and complimentary audio content.
@@ -42,13 +44,10 @@ This repository and it's contents are created as part of [Miglena Minkova](http:
 
 ### Bibliography
 
-* Benjamin, W. (1923) The task of the translator. In: Benjamin, W., Arendt, E (ed.), Zohn, H. (trans.) (1969) Illuminations (pp. 69-82). New York : Schocken Books. Retrieved from https://victorianpersistence.files.wordpress.com/2013/10/walter-benjamin-the-task-of-the-translator-an-introduction-to-the-translation-of-baudelaires-tableaux-parisiens.pdf
-* Benjamin, W. (1940) Theses on the philosophy of history. In Benjamin, W. Arendt, E (ed.), Zohn, H. (trans.) (1969) Illuminations (pp. 253-264). New York : Schocken Books.  Retrieved from http://pages.ucsd.edu/~rfrank/class_web/ES-200A/Week%202/benjamin_ps.pdf
-* Butler, J. (2000) Antigone's claim : Kinship between life and death. New York, New York : Columbia University Press
-* Hölderlin, F. (2001) Holderlin's notes to Antigone. In: Constantine, D. (trans.) (2001)
-* Hölderlin's Sophocles: Oedipus and Antigone (pp. 113-118). Tarset, England : Bloodaxe Books. Retrieved from https://www.scribd.com/doc/88642241/Hölderlin-s-Antigone
-* de Man, P. (1986) Conclusions: Walter Benjamin's 'The Task of the Translator’. In: de Man, P. The resistance to theory (pp.73-105). Minneapolis: University of Minnesota Press. Retrieved from http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf
-* Sophocles. Antigone. Translated from German by Friedrich Hölderlin 1982. Retrieved from http://gutenberg.spiegel.de/buch/antigone-6244/1
-* Steiner, G. (1969) Antigones : How the Antigone legend has endured in Western literature, art, and thought. London : Yale University Press
-
-
+* Benjamin, W. (1923) The task of the translator. In: Benjamin, W., Arendt, E (ed.), Zohn, H. (trans.) (1969) *Illuminations* (pp. 69-82). New York : Schocken Books. Retrieved from https://victorianpersistence.files.wordpress.com/2013/10/walter-benjamin-the-task-of-the-translator-an-introduction-to-the-translation-of-baudelaires-tableaux-parisiens.pdf
+* Benjamin, W. (1940) Theses on the philosophy of history. In Benjamin, W. Arendt, E (ed.), Zohn, H. (trans.) (1969) *Illuminations* (pp. 253-264). New York : Schocken Books.  Retrieved from http://pages.ucsd.edu/~rfrank/class_web/ES-200A/Week%202/benjamin_ps.pdf
+* Butler, J. (2000) *Antigone's claim : Kinship between life and death*. New York, New York : Columbia University Press.
+* Hölderlin, F. (2001) Holderlin's notes to Antigone. In: Constantine, D. (trans.) (2001) *Hölderlin's Sophocles: Oedipus and Antigone* (pp. 113-118). Tarset, England : Bloodaxe Books. Retrieved from https://www.scribd.com/doc/88642241/Hölderlin-s-Antigone
+* de Man, P. (1986) Conclusions: Walter Benjamin's 'The Task of the Translator’. In: de Man, P. (1986) *The resistance to theory* (pp.73-105). Minneapolis: University of Minnesota Press. Retrieved from http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf
+* Sophocles. *Antigone*. Translated from German by Friedrich Hölderlin 1982. Retrieved from http://gutenberg.spiegel.de/buch/antigone-6244/1
+* Steiner, G. (1969) *Antigones : How the Antigone legend has endured in Western literature, art, and thought*. London : Yale University Press.
