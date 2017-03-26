@@ -51,3 +51,5 @@ This repository and it's contents are created as part of [Miglena Minkova](http:
 * de Man, P. (1986) Conclusions: Walter Benjamin's 'The Task of the Translator’. In: de Man, P. (1986) *The resistance to theory* (pp.73-105). Minneapolis: University of Minnesota Press. Retrieved from http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf
 * Sophocles. *Antigone*. Translated from German by Friedrich Hölderlin 1982. Retrieved from http://gutenberg.spiegel.de/buch/antigone-6244/1
 * Steiner, G. (1986) *Antigones : The Antigone myth in Western literature, art and thought*. Oxford, England : Oxford University Press.
+
+[![DOI](https://zenodo.org/badge/79742124.svg)](https://zenodo.org/badge/latestdoi/79742124)
