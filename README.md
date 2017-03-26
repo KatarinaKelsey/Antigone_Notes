@@ -34,7 +34,7 @@ Feel free to add GitHub Issue if you require additional data types.
 
 ### Usage guidelines
 
-The contents of this repository are published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. The images and text are published as they are and the author does not offer any warranties.
+All contents of this repository can be used individually or together to develop new editions of the work, or to develop new works. The repository is published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. The contents are published as they are and the author does not offer any warranties.
 
 Please provide attribution both to [Katarina Kelsey](https://www.katarinakelsey.co.uk) and [AMBruno](http://www.ambruno.co.uk/) when using any of the data in this repository.
 
