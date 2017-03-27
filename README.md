@@ -52,4 +52,4 @@ This repository and it's contents are created as part of [Miglena Minkova](http:
 * Sophocles. *Antigone*. Translated from German by Friedrich Hölderlin 1982. Retrieved from http://gutenberg.spiegel.de/buch/antigone-6244/1
 * Steiner, G. (1986) *Antigones : The Antigone myth in Western literature, art and thought*. Oxford, England : Oxford University Press.
 
-[![DOI](https://zenodo.org/badge/79742124.svg)](https://zenodo.org/badge/latestdoi/79742124)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.437696.svg)](https://doi.org/10.5281/zenodo.437696)
