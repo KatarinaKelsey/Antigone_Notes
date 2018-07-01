@@ -2,291 +2,359 @@
 <!DOCTYPE TEI SYSTEM "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
 <!-- validation against tei_all.dtd schema (online)-->
 <TEI version="5.2" xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader xml:lang="en">
-		<fileDesc>
-			<!--bibliographic description of the TEI encoding-->
-			<titleStmt>
-				<title level="m" type="marc245a">Antigone notes:</title>
-				<title level="m" type="marc245b">a digital edition.</title>
-				<author>
-					<persName xml:id="KK" type="marc100" key="lccn-nb2016-020158">
-						<surname>Kelsey</surname>, <forename>Katarina</forename>.</persName>
-					<idno type="lcaf">http://id.loc.gov/authorities/names/nb2016020158.html</idno>
-				</author>
-				<principal xml:id="MM">
-					<surname>Minkova</surname>, 
-						<forename>Minkova</forename>.
-						</principal>
-				<respStmt xml:id="MM_contribution">
-					<resp>Image descriptions and editing of text transcription by </resp>
-					<persName ref="#MM">
-						<surname>Minkova</surname>, 
-						<forename>Minkova</forename>.
-					</persName>
-				</respStmt>
-				<respStmt xml:id="KK_contribution">
-					<resp>Editing of image descriptions, text transcription and bibliography supplied by </resp>
-					<persName ref="#KK">
-						<surname>Kelsey</surname>, 
-					<forename>Katarina</forename>.
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<editionStmt>
-				<edition n="1">First TEI encoded edition.</edition>
-				<respStmt>
-					<resp>Machine readable text compiled and encoded by</resp>
-					<persName ref="#MM">Miglena Minkova</persName>
-				</respStmt>
-			</editionStmt>
-			<extent>
-				<measure unit="count" quantity="1">1 online resource</measure>
-				<measure unit="kbit" quantity="49">Fourty-nine kilobites</measure>
-				<measure unit="words" quantity="2610">Two tousand six hundred and ten words of source text</measure>
-			</extent>
-			<publicationStmt>
-				<authority>
-					<persName ref="#KK">Katarina Kelsey</persName>
-				</authority>
-				<availability>
-					<p>Available to download from: <ref target="https://github.com/KatarinaKelsey/blob/master/Antigone_Notes_TEI_Encoding.xml">Katarina Kelsey's GitHub space</ref>
-					</p>
-					<licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence.</licence>
-				</availability>
-				<date when="2017-01-22">2017</date>
-			</publicationStmt>
-			<!--bibliographic description of the source document from which the TEI encoding is produced-->
-			<sourceDesc>
-				<biblStruct type="book">
-					<monogr>
-						<author ref="#KK">
-							<surname>Kelsey</surname>, <forename>Katarina</forename>
-						</author>
-						<title level="m" type="marc245a">Antigone Notes</title>
-						<edition>First edition, <date when="2015">2015</date>.
-						</edition>
-						<edition>Limited edition of 15 copies.</edition>
-						<imprint>
-							<distributor>AM Bruno</distributor>
-							<pubPlace>London</pubPlace>
-							<date when="2015">2015</date>
-						</imprint>
-						<extent>
-							<measure unit="book" quantity="4">Four booklets</measure>
-							<measure unit="sheet" quantity="1">One information sheet</measure>
-							<measure unit="cover" quantity="1">One silicone cover</measure>
-						</extent>
-					</monogr>
-					<note resp="#KK_contribution">The book was made in response to AMbruno’s 2015 Red project. In Holderlin’s translation of Antigone he employs literal translation: Antigone seems to ‘colour a red word’ where she usually signals ominous news. It breaks and expands the possibilities of the word, exposes red to all its readings, exposes when ‘words once wore the strident colours of their intent’1. I wanted to explore this translation process materially, to explore the word red in this story, not just in its abstraction and obscurity, but its slow energy as it is realised throughout the book, with transfer printing, heavily waxed and flaking paper and silicone. I used literal translation, google translate, friends’ interpretations, texts on translation, images of Antigones and more traditional translation methods. My own practice still follows similar patterns, focussing heavily on research and readings, often resulting in fragmented contents. Material choices are very important in the research process and I consider these equal to the textual and visual content of the book. I prefer to combine the content with more traditional and simple binding structures in the hope that a stable background will allow the content to be pushed to its extreme.</note>
-				</biblStruct>
-				<msDesc>
-					<msIdentifier>
-						<repository>Katarina Kelsey's GitHub repository</repository>
-					</msIdentifier>
-					<physDesc>
-						<objectDesc form="codex">
-							<p>Artist's book comprises of four twelve-page booklets and one information sheet wrapped in a silicone cover.</p>
-						</objectDesc>
-						<bindingDesc>
-							<p>
-								<material>Paper</material> booklets, each sewn in saddle stitch binding with white thread. One booklet waxed and flaky. A5 size. Booklets and information sheet wrapped together with a transparent <material>silicone</material> cover, with one inch black thread encased in the cover, running across the center front.</p>
-						</bindingDesc>
-					</physDesc>
-				</msDesc>
-				<listBibl>
-					<bibl xml:id="HolderlinsNotesToAntigone">
-						<title level="a">
-							<persName ref="#fh">Holderlin</persName>'s notes to <persName
-								ref="#antigone">Antigone</persName>
-						</title>. In
-<author>
-							<persName ref="#fh">Hölderlin, F.</persName>
-						</author>, <title level="m" type="marc245a">
-							<persName ref="#fh">Holderlin</persName>'s <persName ref="#sophocles">Sophocles</persName>
-						</title>:<title type="marc245b">
-							<persName ref="#oedipus">Oedipus</persName> and <persName ref="#antigone">Antigone</persName>
-						</title>.
-<editor role="translator">
-							<persName>
-								<forename>David</forename>
-								<surname>Constantine</surname>
-							</persName>
-						</editor>
-						<pubPlace>Tarset, England</pubPlace>:
-<publisher>Bloodaxe Books</publisher>,
-						<date when="2001">2001</date>.
-					Available <ref target="https://www.scribd.com/doc/88642241/Hölderlin-s-Antigone">online</ref>.
-				</bibl>
-					<bibl xml:id="SophoclesAntigone">
-						<author>
-							<persName ref="#sophocles">Sophocles</persName>
-						</author>, 
-				   <title level="m" type="marc245a">
-							<persName ref="#antigone">Antigone</persName>
-						</title>
-						<editor role="translator">
-							<persName ref="fh">Hölderlin, F.</persName>
-						</editor>
-						<date when="1982">1982</date>
-					Available <ref target="http://gutenberg.spiegel.de/buch/antigone-6244/1">online</ref>.
-				</bibl>
-					<bibl xml:id="BenjaminTaskTranslator">
-						<title level="a">Task of the translator
-						</title>.<date when="1923">1923</date> In
-						<author>
-							<persName>
-								<surname>Benjamin</surname>,<forename>Walter</forename>
-							</persName>
-						</author>.<title level="m" type="marc245a">
-							Illuminations
-						</title>.
-						<editor>
-							<persName>
-								<forename>Hannah</forename>
-								<surname>Arendt</surname>
-							</persName>
-						</editor>
-						<editor role="translator">
-							<persName>
-								<forename>Harry</forename>
-								<surname>Zohn</surname>
-							</persName>
-						</editor>
-						<pubPlace>New York</pubPlace>:
-<publisher>Schocken Books</publisher>,
-						<date when="1969">1969</date>.
-					Available <ref target="https://victorianpersistence.files.wordpress.com/2013/10/walter-benjamin-the-task-of-the-translator-an-introduction-to-the-translation-of-baudelaires-tableaux-parisiens.pdf">online</ref>.
-				</bibl>
-					<bibl xml:id="BenjaminThesesPhilosophyandHistory">
-						<title level="a">Theses on the philosophy of history
-						</title>. <date when="1940">1940</date> In
-						<author>
-							<persName>
-								<surname>Benjamin</surname>,<forename>Walter</forename>
-							</persName>
-						</author>.<title level="m" type="marc245a">
-							Illuminations
-						</title>.
-						<editor>
-							<persName>
-								<forename>Hannah</forename>
-								<surname>Arendt</surname>
-							</persName>
-						</editor>
-						<editor role="translator">
-							<persName>
-								<forename>Harry</forename>
-								<surname>Zohn</surname>
-							</persName>
-						</editor>
-						<pubPlace>New York</pubPlace>:
-<publisher>Schocken Books</publisher>,
-						<date when="1969">1969</date>.
-						Available <ref target="http://pages.ucsd.edu/~rfrank/class_web/ES-200A/Week%202/benjamin_ps.pdf">online</ref>.
-				</bibl>
-					<bibl xml:id="deManConclusions">
-						<title level="a">Conclusions: Walter Benjamin's 'The Task of the Translator.
-						</title>.In
-						<author>
-							<persName>
-								<surname>de Man</surname>,<forename>Paul</forename>
-							</persName>
-						</author>, <title level="m" type="marc245a">
-							The resistance to theory
-						</title>.
-						<pubPlace>Minneapolis</pubPlace>:
-<publisher>University of Minnesota Press</publisher>,
-						<date when="1986">1986</date>.
-					Available <ref target="http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf">online</ref>.
-				</bibl>
-					<bibl xml:id="SteinerAntigones">
-						<author>
-							<persName>
-								<surname>Steiner</surname>,<forename>George</forename>
-							</persName>
-						</author>.<title level="m" type="marc245a">Antigones:</title>
-						<title level="m" type="marc245b">The Antigone myth in Western literature, art and thought</title>.
-						<pubPlace>Oxford, England</pubPlace>:
-<publisher>Oxford University Press</publisher>,
-						<date when="1986">1986</date>.
-						</bibl>
-					<bibl xml:id="ButlerAntionesClaim">
-						<author>
-							<persName>
-								<surname>Butler</surname>,<forename>Judith</forename>
-							</persName>
-						</author>.<title level="m" type="marc245a">Antigone's claim:</title>
-						<title level="m" type="marc245b">Kinship between life and death</title>.
-						<pubPlace>New York, New York</pubPlace>:
-<publisher>Columbia University Press</publisher>,
-						<date when="2000">2000</date>.
-						</bibl>
-				</listBibl>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<p>The objective of this TEI encoding is to provide a basic structure in which the provenance of different texts used in the artist's book can be made explicit. Formatting and layout information preserved.</p>
-			<projectDesc>
-				<p>This encoding is part of a <ref target="https://github.com/KatarinaKelsey/Antigone_Notes">GitHub repository</ref> created for the digital version of <persName
-						ref="#KK">Katarina Kelsey</persName>'s artist's book <title>Antigone Notes</title>. The repository and it's contents are created as part of <persName
-						ref="#MM">Miglena Minkova</persName>'s master thesis submitted on <date
-						when="2017-05-19">19 May 2017</date> for the course <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at <orgName
-						ref="http://www.hb.se">University of Boras</orgName>, <placeName>Sweden</placeName>.</p>
-			</projectDesc>
-			<editorialDecl>
-				<p>Parts of the text contain deliberate spelling mistakes due to translation methods used by the artist. These are part of the original work and as such no editorial corrections or normalization is applied to them. Special characters marked.</p>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy xml:id="lcaf">
-					<bibl>Library of Congress Authority Files</bibl>
-				</taxonomy>
-				<taxonomy xml:id="ddc23">
-					<bibl>Dewey Decimal Classification, edition 23</bibl>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<langUsage>
-				<language ident="en" usage="95">English</language>
-				<language ident="de" usage="5">German</language>
-			</langUsage>
-			<particDesc>
-				<listPerson type="historical">
-					<!-- ... definition in the header -->
-					<person xml:id="antigone">
-						<persName>Antigone</persName>
-					</person>
-					<person xml:id="ismene">
-						<persName>Ismene</persName>
-					</person>
-					<person xml:id="fh">
-						<persName>
-							<forename>Friedrich</forename>
-							<surname>Hölderlin</surname>
-						</persName>
-					</person>
-					<person xml:id="oedipus">
-						<persName>Oedipus,</persName>
-					</person>
-					<person xml:id="sophocles">
-						<persName>Sophocles</persName>
-					</person>
-				</listPerson>
-			</particDesc>
-			<textClass>
-				<classCode scheme="#ddc23">709.05018</classCode>
-				<keywords scheme="#lcaf">
-					<term>Artists' books</term>
-				</keywords>
-			</textClass>
-		</profileDesc>
-		<revisionDesc status="published">
-			<change when="2017-01-22" who="#MM">
-		      Published on GitHub on 22 January 2017. Subsequently edited. For full history of revisions refer to <ref
-					target="https://github.com/KatarinaKelsey/Antigone_Notes/commits/master/Antigone_Notes_TEI_Encoding.xml">GitHub's history of commits</ref>.</change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <!--bibliographic description of the TEI encoding-->
+      <titleStmt>
+        <title level="m" type="marc245a">Antigone notes:</title>
+        <title level="m" type="marc245b">a digital edition.</title>
+        <author>
+          <persName xml:id="KK" type="marc100" key="lccn-nb2016-020158">
+            <surname>Kelsey</surname>,
+            <forename>Katarina</forename>.</persName>
+          <idno type="lcaf">http://id.loc.gov/authorities/names/nb2016020158.html</idno>
+        </author>
+        <principal xml:id="MM">
+          <surname>Minkova</surname>,
+          <forename>Minkova</forename>.
+        </principal>
+        <respStmt xml:id="MM_contribution">
+          <resp>Image descriptions and editing of text transcription by </resp>
+          <persName ref="#MM">
+            <surname>Minkova</surname>,
+            <forename>Minkova</forename>.
+          </persName>
+        </respStmt>
+        <respStmt xml:id="KK_contribution">
+          <resp>Editing of image descriptions, text transcription and bibliography supplied by </resp>
+          <persName ref="#KK">
+            <surname>Kelsey</surname>,
+            <forename>Katarina</forename>.
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">First TEI encoded edition.</edition>
+        <respStmt>
+          <resp>Machine readable text compiled and encoded by</resp>
+          <persName ref="#MM">Miglena Minkova</persName>
+        </respStmt>
+      </editionStmt>
+      <extent>
+        <measure unit="count" quantity="1">1 online resource</measure>
+        <measure unit="kbit" quantity="49">Fourty-nine kilobites</measure>
+        <measure unit="words" quantity="2610">Two tousand six hundred and ten words of source text</measure>
+      </extent>
+      <publicationStmt>
+        <authority>
+          <persName ref="#KK">Katarina Kelsey</persName>
+        </authority>
+        <availability>
+          <p>Available to download from:
+            <ref target="https://github.com/KatarinaKelsey/blob/master/Antigone_Notes_TEI_Encoding.xml">Katarina Kelsey's GitHub space</ref>
+          </p>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 licence.</licence>
+        </availability>
+        <date when="2017-01-22">2017</date>
+      </publicationStmt>
+      <!--bibliographic description of the source document from which the TEI encoding is produced-->
+      <sourceDesc>
+        <biblStruct type="book">
+          <monogr>
+            <author ref="#KK">
+              <surname>Kelsey</surname>,
+              <forename>Katarina</forename>
+            </author>
+            <title level="m" type="marc245a">Antigone Notes</title>
+            <edition>First edition,
+              <date when="2015">2015</date>.
+            </edition>
+            <edition>Limited edition of 15 copies.</edition>
+            <imprint>
+              <distributor>AM Bruno</distributor>
+              <pubPlace>London</pubPlace>
+              <date when="2015">2015</date>
+            </imprint>
+            <extent>
+              <measure unit="book" quantity="4">Four booklets</measure>
+              <measure unit="sheet" quantity="1">One information sheet</measure>
+              <measure unit="cover" quantity="1">One silicone cover</measure>
+            </extent>
+          </monogr>
+          <note resp="#KK_contribution">The book was made in response to AMbruno’s 2015 Red project. In Holderlin’s translation of Antigone he employs literal translation: Antigone seems to ‘colour a red word’ where she usually signals ominous news. It breaks and expands the possibilities
+            of the word, exposes red to all its readings, exposes when ‘words once wore the strident colours of their intent’1. I wanted to explore this translation process materially, to explore the word red in this story, not just in its abstraction
+            and obscurity, but its slow energy as it is realised throughout the book, with transfer printing, heavily waxed and flaking paper and silicone. I used literal translation, google translate, friends’ interpretations, texts on translation, images
+            of Antigones and more traditional translation methods. My own practice still follows similar patterns, focussing heavily on research and readings, often resulting in fragmented contents. Material choices are very important in the research
+            process and I consider these equal to the textual and visual content of the book. I prefer to combine the content with more traditional and simple binding structures in the hope that a stable background will allow the content to be pushed
+            to its extreme.</note>
+        </biblStruct>
+        <msDesc>
+          <msIdentifier>
+            <repository>Katarina Kelsey's GitHub repository</repository>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="codex">
+              <p>Artist's book comprises of four twelve-page booklets and one information sheet wrapped in a silicone cover.</p>
+            </objectDesc>
+            <bindingDesc>
+              <p>
+                <material>Paper</material> booklets, each sewn in saddle stitch binding with white thread. One booklet waxed and flaky. A5 size. Booklets and information sheet wrapped together with a transparent
+                <material>silicone</material> cover, with one inch black thread encased in the cover, running across the center front.</p>
+            </bindingDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl xml:id="HolderlinsNotesToAntigone">
+            <title level="a">
+              <persName ref="#fh">Holderlin</persName>'s notes to
+              <persName ref="#antigone">Antigone</persName>
+            </title>. In
+            <author>
+              <persName ref="#fh">Hölderlin, F.</persName>
+            </author>,
+            <title level="m" type="marc245a">
+              <persName ref="#fh">Holderlin</persName>'s
+              <persName ref="#sophocles">Sophocles</persName>
+            </title>:
+            <title type="marc245b">
+              <persName ref="#oedipus">Oedipus</persName> and
+              <persName ref="#antigone">Antigone</persName>
+            </title>.
+            <editor role="translator">
+              <persName>
+                <forename>David</forename>
+                <surname>Constantine</surname>
+              </persName>
+            </editor>
+            <pubPlace>Tarset, England</pubPlace>:
+            <publisher>Bloodaxe Books</publisher>,
+            <date when="2001">2001</date>. Available
+            <ref target="https://www.scribd.com/doc/88642241/Hölderlin-s-Antigone">online</ref>.
+          </bibl>
+          <bibl xml:id="SophoclesAntigone">
+            <author>
+              <persName ref="#sophocles">Sophocles</persName>
+            </author>,
+            <title level="m" type="marc245a">
+              <persName ref="#antigone">Antigone</persName>
+            </title>
+            <editor role="translator">
+              <persName ref="fh">Hölderlin, F.</persName>
+            </editor>
+            <date when="1982">1982</date>
+            Available
+            <ref target="http://gutenberg.spiegel.de/buch/antigone-6244/1">online</ref>.
+          </bibl>
+          <bibl xml:id="BenjaminTaskTranslator">
+            <title level="a">Task of the translator
+            </title>.
+            <date when="1923">1923</date> In
+            <author>
+              <persName>
+                <surname>Benjamin</surname>,
+                <forename>Walter</forename>
+              </persName>
+            </author>.
+            <title level="m" type="marc245a">
+              Illuminations
+            </title>.
+            <editor>
+              <persName>
+                <forename>Hannah</forename>
+                <surname>Arendt</surname>
+              </persName>
+            </editor>
+            <editor role="translator">
+              <persName>
+                <forename>Harry</forename>
+                <surname>Zohn</surname>
+              </persName>
+            </editor>
+            <pubPlace>New York</pubPlace>:
+            <publisher>Schocken Books</publisher>,
+            <date when="1969">1969</date>. Available
+            <ref target="https://victorianpersistence.files.wordpress.com/2013/10/walter-benjamin-the-task-of-the-translator-an-introduction-to-the-translation-of-baudelaires-tableaux-parisiens.pdf">online</ref>.
+          </bibl>
+          <bibl xml:id="BenjaminThesesPhilosophyandHistory">
+            <title level="a">Theses on the philosophy of history
+            </title>.
+            <date when="1940">1940</date> In
+            <author>
+              <persName>
+                <surname>Benjamin</surname>,
+                <forename>Walter</forename>
+              </persName>
+            </author>.
+            <title level="m" type="marc245a">
+              Illuminations
+            </title>.
+            <editor>
+              <persName>
+                <forename>Hannah</forename>
+                <surname>Arendt</surname>
+              </persName>
+            </editor>
+            <editor role="translator">
+              <persName>
+                <forename>Harry</forename>
+                <surname>Zohn</surname>
+              </persName>
+            </editor>
+            <pubPlace>New York</pubPlace>:
+            <publisher>Schocken Books</publisher>,
+            <date when="1969">1969</date>. Available
+            <ref target="http://pages.ucsd.edu/~rfrank/class_web/ES-200A/Week%202/benjamin_ps.pdf">online</ref>.
+          </bibl>
+          <bibl xml:id="deManConclusions">
+            <title level="a">Conclusions: Walter Benjamin's 'The Task of the Translator.
+            </title>.In
+            <author>
+              <persName>
+                <surname>de Man</surname>,
+                <forename>Paul</forename>
+              </persName>
+            </author>,
+            <title level="m" type="marc245a">
+              The resistance to theory
+            </title>.
+            <pubPlace>Minneapolis</pubPlace>:
+            <publisher>University of Minnesota Press</publisher>,
+            <date when="1986">1986</date>. Available
+            <ref target="http://www.colorado.edu/humanities/ferris/Courses/Benjamin/DeMan,%20Paul-Conclusions%20Walter%20Benjamins%20The%20Task%20of%20the%20Translator_The%20Resistance%20to%20Theory%2073-105.pdf">online</ref>.
+          </bibl>
+          <bibl xml:id="SteinerAntigones">
+            <author>
+              <persName>
+                <surname>Steiner</surname>,
+                <forename>George</forename>
+              </persName>
+            </author>.
+            <title level="m" type="marc245a">Antigones:</title>
+            <title level="m" type="marc245b">The Antigone myth in Western literature, art and thought</title>.
+            <pubPlace>Oxford, England</pubPlace>:
+            <publisher>Oxford University Press</publisher>,
+            <date when="1986">1986</date>.
+          </bibl>
+          <bibl xml:id="ButlerAntionesClaim">
+            <author>
+              <persName>
+                <surname>Butler</surname>,
+                <forename>Judith</forename>
+              </persName>
+            </author>.
+            <title level="m" type="marc245a">Antigone's claim:</title>
+            <title level="m" type="marc245b">Kinship between life and death</title>.
+            <pubPlace>New York, New York</pubPlace>:
+            <publisher>Columbia University Press</publisher>,
+            <date when="2000">2000</date>.
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The objective of this TEI encoding is to provide a basic structure in which the provenance of different texts used in the artist's book can be made explicit. Formatting and layout information preserved.</p>
+      <projectDesc>
+        <p>This encoding is part of a
+          <ref target="https://github.com/KatarinaKelsey/Antigone_Notes">GitHub repository</ref> created for the digital version of
+          <persName ref="#KK">Katarina Kelsey</persName>'s artist's book
+          <title>Antigone Notes</title>. The repository and it's contents are created as part of
+          <persName ref="#MM">Miglena Minkova</persName>'s master thesis submitted on
+          <date when="2017-05-19">19 May 2017</date> for the course
+          <ref target="http://www.hb.se/en/Current-Student/My-studies/Course-and-programme-portal/Programme-portal/Admitted-Autumn-2013/Masters-programme-Library-and-Information-Science-Digital-Library-and-Information-Services/">Digital Libraries and Information Services</ref> at
+          <orgName ref="http://www.hb.se">University of Boras</orgName>,
+          <placeName>Sweden</placeName>.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Parts of the text contain deliberate spelling mistakes due to translation methods used by the artist. These are part of the original work and as such no editorial corrections or normalization is applied to them. Special characters marked.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="p">Paragraphs are preserved to reflect the visual appearance of the text. Indentation of paragraphs is preserved using the @rendition attribute. Paragraphs containing text by the artist are marked with @resp attribute, such as
+            <p resp=”KK”>.Responsibility attribute @resp is used to indicate text that is contributed to particular individual or a contribution to the TEI encoding. In the first instance, this is used to mark text attributed to the author of the artist’s book, while
+              in the second instance the attribute points to responsibility statement which clearly defines the roles of individuals in the TEI encoding.
+          </tagUsage>
+          <tagUsage gi="lb/">Line breaks are preserved to reflect the visual appearance of the text. End-of-line hyphenation is encoded as soft hyphens with @break attribute and value "no" to recognise elements as whole words.
+          </tagUsage>
+          <tagUsage gi="pb/">Page breaks are preserved to reflect the visual appearance of the text. Blank pages are marked as comments to indicate the content’s rhythm.
+          </tagUsage>
+          <tagUsage gi="emph">Emphasis tag is used sparingly to mark stressed words or phrases.
+          </tagUsage>
+          <tagUsage gi="figure">Images are marked with <figure> and <graphic> tags, and relative URI reference are used to point to the image files in the local directory.
+          </tagUsage>
+          <tagUsage gi="figDesc">Image descriptions are provided and additional image information is put in the accompanied <note> tag. The @type attribute is used for notes: analytical, including creation process, meaning and implicit information, and descriptive, including visual qualities.
+          </tagUsage>
+          <tagUsage gi="quote">Quotations are used for text contributed to external sources but not distinguished from its surrounding in any way. Each source is indicated using @source attribute with a value of a reference pointing to an entry in the list of bibliographic references <listBibl> placed in the source description <sourceDesc>. Attribute @n is used to mark the page numbers of each quote.
+          </tagUsage>
+          <tagUsage gi="supplied">For text that is unclear or unreadable, the artist has supplied a transcription which is marked with <supplied reason="superimposed" resp="#KK_contribution">. Responsibility attribute @resp is used to indicate text that is contributed to particular individual or a contribution to the TEI encoding. In the first instance, this is used to mark text attributed to the author of the artist’s book, while in the second instance the attribute points to responsibility statement which clearly defines the roles of individuals in the TEI encoding.
+          </tagUsage>
+          <tagUsage gi="foreign">German language is encoded as <foreign xml:lang="de">, with special characters encoded as Unicode UTF-8.
+          </tagUsage>
+          <tagUsage gi="num">Numbers are encoded within the text.
+          </tagUsage>
+          <tagUsage gi="speaker">Simple drama (dialogue) from booklet 3 is encoded. It is also enclosed within a separate division <div type="creative_translation">to indicate that the the language properties of the text are due to the translation process and spelling mistakes are a result of it.
+          </tagUsage>
+          <tagUsage gi="table">Table element is used for text presented in Google Translate box with attribute @type and value "GoogleTranslate".
+          </tagUsage>
+          <tagUsage gi="front">Silicon cover is encoded in <front> and <back> matter.
+          </tagUsage>
+          <tagUsage gi="back">Silicon cover is encoded in <front> and <back> matter.
+          </tagUsage>
+          <tagUsage gi="msDesc">Physical description and description of the binding is provided in
+            <msDesc>.
+          </tagUsage>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="lcaf">
+          <bibl>Library of Congress Authority Files</bibl>
+        </taxonomy>
+        <taxonomy xml:id="ddc23">
+          <bibl>Dewey Decimal Classification, edition 23</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en" usage="95">English</language>
+        <language ident="de" usage="5">German</language>
+      </langUsage>
+      <particDesc>
+        <listPerson type="historical">
+          <!-- ... definition in the header -->
+          <person xml:id="antigone">
+            <persName>Antigone</persName>
+          </person>
+          <person xml:id="ismene">
+            <persName>Ismene</persName>
+          </person>
+          <person xml:id="fh">
+            <persName>
+              <forename>Friedrich</forename>
+              <surname>Hölderlin</surname>
+            </persName>
+          </person>
+          <person xml:id="oedipus">
+            <persName>Oedipus,</persName>
+          </person>
+          <person xml:id="sophocles">
+            <persName>Sophocles</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <classCode scheme="#ddc23">709.05018</classCode>
+        <keywords scheme="#lcaf">
+          <term>Artists' books</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="published">
+      <change when="2017-01-22" who="#MM">
+        Published on GitHub on 22 January 2017. Subsequently edited. For full history of revisions refer to
+        <ref target="https://github.com/KatarinaKelsey/Antigone_Notes/commits/master/Antigone_Notes_TEI_Encoding.xml">GitHub's history of commits</ref>.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
 		<front>
 			<p>A transparent silicone cover with a piece of black thread running across the center of it. Uneven edges. Traces of dust and debris. Text from first page of booklet 1 visible through.</p>
 		</front>
